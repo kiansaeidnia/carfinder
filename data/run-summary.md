@@ -36,6 +36,6 @@ _none found_
 | gumtree | kia-ev6 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | byd-sealion-7 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | subaru-solterra | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
-| drive | kia-ev6 | ✅ ok | 8 | 0 |
-| drive | byd-sealion-7 | ✅ ok | 8 | 0 |
-| drive | subaru-solterra | ✅ ok | 8 | 0 |
+| drive | kia-ev6 | ✅ ok | 80 | 0 |
+| drive | byd-sealion-7 | ✅ ok | 80 | 0 |
+| drive | subaru-solterra | ✅ ok | 80 | 0 |
