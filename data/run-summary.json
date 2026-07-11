@@ -128,32 +128,32 @@
   {
    "source": "drive",
    "query": "kia-ev6",
-   "ok": true,
-   "raw": 80,
+   "ok": false,
+   "raw": 0,
    "kept": 0,
-   "engine": "playwright",
-   "error": null,
-   "url": "https://www.drive.com.au/cars-for-sale/search/qld/?make=kia&model=ev6&state=qld#sortBy=recommended"
+   "engine": "requests",
+   "error": "all candidate URLs blocked or failed (last status 404)",
+   "url": null
   },
   {
    "source": "drive",
    "query": "byd-sealion-7",
-   "ok": true,
-   "raw": 80,
+   "ok": false,
+   "raw": 0,
    "kept": 0,
-   "engine": "playwright",
-   "error": null,
-   "url": "https://www.drive.com.au/cars-for-sale/search/qld/?make=byd&model=sealion-7&state=qld#sortBy=recommended"
+   "engine": "requests",
+   "error": "all candidate URLs blocked or failed (last status 404)",
+   "url": null
   },
   {
    "source": "drive",
    "query": "subaru-solterra",
-   "ok": true,
-   "raw": 80,
+   "ok": false,
+   "raw": 0,
    "kept": 0,
-   "engine": "playwright",
-   "error": null,
-   "url": "https://www.drive.com.au/cars-for-sale/search/qld/?make=subaru&model=solterra&state=qld#sortBy=recommended"
+   "engine": "requests",
+   "error": "all candidate URLs blocked or failed (last status 404)",
+   "url": null
   }
  ]
 }
