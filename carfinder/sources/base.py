@@ -120,11 +120,21 @@ class Source(ABC):
 
     # ------------------------------------------------------------- helpers
 
+    _NON_LISTING_TITLE = re.compile(
+        r"\b(?:news|reviews?|specs|price\s*&\s*specs|comparison|guide)\s*$",
+        re.IGNORECASE)
+
     def _to_listing(self, raw: dict[str, Any], query: Query) -> Listing | None:
         title = common.clean_text(str(raw.get("title") or ""))
         match_text = " ".join(str(raw.get(k) or "") for k in
                               ("title", "variant", "card_text", "make", "model"))
         if not query.matches(match_text):
+            return None
+        # Editorial/nav links ("Kia EV6 News") match the model regex but are
+        # not ads: a real ad always shows a price or an odometer reading.
+        has_price = raw.get("price") is not None or bool(raw.get("price_text"))
+        if (not has_price and raw.get("odometer_km") is None) \
+                or self._NON_LISTING_TITLE.search(title):
             return None
         url = str(raw.get("url") or "")
         source_id = str(raw.get("source_id") or "") or self._id_from_url(url)

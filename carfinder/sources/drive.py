@@ -40,7 +40,7 @@ _MODEL_TOKENS = {
     "subaru-solterra": ["solterra"],
 }
 
-_DETAIL_LOOKUPS_PER_QUERY = 6
+_DETAIL_LOOKUPS_PER_QUERY = 12
 
 
 class Drive(Source):

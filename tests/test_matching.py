@@ -43,6 +43,25 @@ class TestSealion7:
         assert not SEALION.variant_matches("Sealion 7 Performance AWD")
 
 
+class TestNonListingRejection:
+    def test_editorial_links_are_not_ads(self):
+        from carfinder.sources.demo import Demo
+        d = Demo()
+        for junk in ({"title": "Kia EV6 News", "url": "https://x/news/"},
+                     {"title": "Kia EV6 Reviews", "url": "https://x/reviews/"},
+                     {"title": "2026 Kia EV6 Price & Specs", "url": "https://x/specs/",
+                      "price": 72990}):
+            assert d._to_listing(junk, EV6) is None
+
+    def test_priceless_with_odometer_is_still_an_ad(self):
+        from carfinder.sources.demo import Demo
+        d = Demo()
+        raw = {"title": "2022 Kia EV6 GT-Line POA", "url": "https://x/car/1234567",
+               "odometer_km": 30000}
+        listing = d._to_listing(raw, EV6)
+        assert listing is not None and listing.price is None
+
+
 class TestSolterra:
     def test_matches_correct_spelling(self):
         assert SOLTERRA.matches("2026 Subaru Solterra AWD")
