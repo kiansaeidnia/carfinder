@@ -62,6 +62,7 @@ class Source(ABC):
                     working_idx = idx
                     break
                 log.info("%s: %s fetched OK but no listings parsed", self.name, url)
+                self._log_diagnostics(fetch, raws, query)
 
             if page_fetch is None:
                 if page == 1:
@@ -77,6 +78,11 @@ class Source(ABC):
                 if listing is not None and listing.key not in listings:
                     listings[listing.key] = listing
                     new_on_page += 1
+            if page_raws and new_on_page == 0 and page == 1:
+                # Parsed objects but none survived the model filter — show
+                # what was actually harvested so the mismatch is debuggable
+                # straight from CI logs.
+                self._log_diagnostics(page_fetch, page_raws, query)
             if not page_raws or new_on_page == 0:
                 break
 
@@ -120,6 +126,42 @@ class Source(ABC):
             location=common.clean_text(str(location)) if location else None,
             variant_match=query.variant_matches(variant_text),
         )
+
+    def _log_diagnostics(self, fetch: FetchResult, raws: list[dict[str, Any]],
+                         query: Query) -> None:
+        """Fingerprint a page that yielded nothing useful, into the log.
+
+        Runs on CI where the raw HTML artifact may be awkward to reach; these
+        lines alone should reveal whether the page was a challenge shell, an
+        empty result list, or a parser/selector mismatch.
+        """
+        text = fetch.text
+        title_m = re.search(r"<title[^>]*>(.*?)</title>", text, re.DOTALL | re.IGNORECASE)
+        anchors = re.findall(r'<a[^>]+href="([^"]+)"', text)
+        prefixes: dict[str, int] = {}
+        for href in anchors:
+            path = href.split("?")[0]
+            if path.startswith("http"):
+                path = "/" + path.split("/", 3)[-1] if path.count("/") >= 3 else path
+            parts = [p for p in path.split("/") if p]
+            prefix = "/" + "/".join(parts[:2]) if parts else "/"
+            prefixes[prefix] = prefixes.get(prefix, 0) + 1
+        top = sorted(prefixes.items(), key=lambda kv: -kv[1])[:12]
+        log.info(
+            "%s diagnostics [%s]: status=%s engine=%s bytes=%d title=%r "
+            "next_data=%s jsonld_blocks=%d anchors=%d",
+            self.name, query.key, fetch.status, fetch.engine, len(text),
+            (title_m.group(1).strip()[:100] if title_m else None),
+            '"__NEXT_DATA__"' in text or "id=\"__NEXT_DATA__\"" in text,
+            text.count("application/ld+json"), len(anchors))
+        log.info("%s diagnostics [%s]: top anchor prefixes: %s",
+                 self.name, query.key,
+                 ", ".join(f"{p}({n})" for p, n in top) or "none")
+        for raw in raws[:8]:
+            log.info("%s diagnostics [%s]: raw title=%r price=%r url=%r loc=%r",
+                     self.name, query.key, str(raw.get("title"))[:90],
+                     raw.get("price") or raw.get("price_text"),
+                     str(raw.get("url"))[:110], raw.get("location"))
 
     @staticmethod
     def _id_from_url(url: str) -> str:

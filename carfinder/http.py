@@ -175,6 +175,14 @@ class Fetcher:
                 if not any(m in head for m in _CHALLENGE_MARKERS):
                     break
                 page.wait_for_timeout(3000)
+            # Result lists on SPA sites render after XHRs; settle and nudge
+            # lazy-loaded content before capturing.
+            try:
+                page.wait_for_load_state("networkidle", timeout=8000)
+            except Exception:
+                pass
+            page.mouse.wheel(0, 2500)
+            page.wait_for_timeout(1500)
             status = resp.status if resp else 0
             html = page.content()
             return FetchResult(url=page.url, status=status, text=html, engine="playwright")
