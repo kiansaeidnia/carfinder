@@ -1,0 +1,227 @@
+{
+ "listings": {
+  "drive:108000": {
+   "active": true,
+   "condition": null,
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-07-12",
+   "last_seen": "2026-07-12",
+   "location": null,
+   "odometer_km": 517,
+   "price": 67990,
+   "price_history": [
+    [
+     "2026-07-12",
+     67990
+    ]
+   ],
+   "price_text": "$67,990",
+   "query_key": "subaru-solterra",
+   "source": "drive",
+   "source_id": "108000",
+   "state": null,
+   "title": "2026 Subaru Solterra",
+   "url": "https://www.drive.com.au/cars-for-sale/car/g-108000/",
+   "variant": "E1-1 AWD Touring. Wagon 5dr Reduction Gear 1sp 252kW [MY26]",
+   "variant_match": false,
+   "year": 2026
+  },
+  "drive:134801": {
+   "active": true,
+   "condition": null,
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-07-12",
+   "last_seen": "2026-07-12",
+   "location": null,
+   "odometer_km": 450,
+   "price": 99660,
+   "price_history": [
+    [
+     "2026-07-12",
+     99660
+    ]
+   ],
+   "price_text": "$99,660",
+   "query_key": "kia-ev6",
+   "source": "drive",
+   "source_id": "134801",
+   "state": null,
+   "title": "2026 Kia EV6",
+   "url": "https://www.drive.com.au/cars-for-sale/car/g-134801/",
+   "variant": "CV PE GT. Wagon 5dr Reduction Gear 1sp AWD AC478kW [MY26]",
+   "variant_match": false,
+   "year": 2026
+  },
+  "drive:970169032": {
+   "active": true,
+   "condition": "demo",
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-07-12",
+   "last_seen": "2026-07-12",
+   "location": "QLD",
+   "odometer_km": 524,
+   "price": 73990,
+   "price_history": [
+    [
+     "2026-07-12",
+     73990
+    ]
+   ],
+   "price_text": "$73,990",
+   "query_key": "subaru-solterra",
+   "source": "drive",
+   "source_id": "970169032",
+   "state": "QLD",
+   "title": "2026 Subaru Solterra",
+   "url": "https://www.drive.com.au/cars-for-sale/car/970169032/",
+   "variant": "E1-1 AWD Touring. Wagon 5dr Reduction Gear 1sp 252kW [MY26]",
+   "variant_match": false,
+   "year": 2026
+  },
+  "drive:970258740": {
+   "active": true,
+   "condition": "demo",
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-07-12",
+   "last_seen": "2026-07-12",
+   "location": "QLD",
+   "odometer_km": 2903,
+   "price": 67960,
+   "price_history": [
+    [
+     "2026-07-12",
+     67960
+    ]
+   ],
+   "price_text": "$67,960",
+   "query_key": "subaru-solterra",
+   "source": "drive",
+   "source_id": "970258740",
+   "state": "QLD",
+   "title": "2025 Subaru Solterra",
+   "url": "https://www.drive.com.au/cars-for-sale/car/970258740/",
+   "variant": "E1-1 AWD. Wagon 5dr Reduction Gear 1sp 252kW [MY26]",
+   "variant_match": false,
+   "year": 2025
+  },
+  "drive:https://www.drive.com.au/showrooms/kia/ev6/#news-slider": {
+   "active": true,
+   "condition": null,
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-07-12",
+   "last_seen": "2026-07-12",
+   "location": null,
+   "odometer_km": null,
+   "price": null,
+   "price_history": [],
+   "price_text": "",
+   "query_key": "kia-ev6",
+   "source": "drive",
+   "source_id": "https://www.drive.com.au/showrooms/kia/ev6/#news-slider",
+   "state": null,
+   "title": "Kia EV6 News",
+   "url": "https://www.drive.com.au/showrooms/kia/ev6/#news-slider",
+   "variant": null,
+   "variant_match": false,
+   "year": null
+  },
+  "drive:https://www.drive.com.au/showrooms/kia/ev6/#review-slider": {
+   "active": true,
+   "condition": null,
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-07-12",
+   "last_seen": "2026-07-12",
+   "location": null,
+   "odometer_km": null,
+   "price": null,
+   "price_history": [],
+   "price_text": "",
+   "query_key": "kia-ev6",
+   "source": "drive",
+   "source_id": "https://www.drive.com.au/showrooms/kia/ev6/#review-slider",
+   "state": null,
+   "title": "Kia EV6 Reviews",
+   "url": "https://www.drive.com.au/showrooms/kia/ev6/#review-slider",
+   "variant": null,
+   "variant_match": false,
+   "year": null
+  },
+  "drive:https://www.drive.com.au/showrooms/subaru/solterra/#news-slider": {
+   "active": true,
+   "condition": null,
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-07-12",
+   "last_seen": "2026-07-12",
+   "location": null,
+   "odometer_km": null,
+   "price": null,
+   "price_history": [],
+   "price_text": "",
+   "query_key": "subaru-solterra",
+   "source": "drive",
+   "source_id": "https://www.drive.com.au/showrooms/subaru/solterra/#news-slider",
+   "state": null,
+   "title": "Subaru Solterra News",
+   "url": "https://www.drive.com.au/showrooms/subaru/solterra/#news-slider",
+   "variant": null,
+   "variant_match": false,
+   "year": null
+  },
+  "drive:https://www.drive.com.au/showrooms/subaru/solterra/#review-slider": {
+   "active": true,
+   "condition": null,
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-07-12",
+   "last_seen": "2026-07-12",
+   "location": null,
+   "odometer_km": null,
+   "price": null,
+   "price_history": [],
+   "price_text": "",
+   "query_key": "subaru-solterra",
+   "source": "drive",
+   "source_id": "https://www.drive.com.au/showrooms/subaru/solterra/#review-slider",
+   "state": null,
+   "title": "Subaru Solterra Reviews",
+   "url": "https://www.drive.com.au/showrooms/subaru/solterra/#review-slider",
+   "variant": null,
+   "variant_match": false,
+   "year": null
+  }
+ },
+ "runs": [
+  {
+   "date": "2026-07-12",
+   "new": 8,
+   "sources_ok": [
+    "drive"
+   ],
+   "total_active": 8
+  }
+ ],
+ "version": 1
+}
