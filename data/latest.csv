@@ -1,1 +1,25 @@
 query_key,source,source_id,title,year,variant,price,price_text,odometer_km,condition,location,distance_km,variant_match,first_seen,last_seen,url
+kia-ev6,drive,970256804,2023 Kia EV6,2023,CV GT-Line. Wagon 5dr Reduction Gear 1sp AWD AC239kW [MY23],44175,"$44,175",33532,,QLD,,False,2026-07-12,2026-07-12,
+kia-ev6,drive,970292539,2023 Kia EV6,2023,CV GT. Wagon 5dr Reduction Gear 1sp AWD AC430kW [MY23],66989,"$66,989",13638,,QLD,,False,2026-07-12,2026-07-12,
+kia-ev6,drive,969928434,2024 Kia EV6,2024,CV Air. Wagon 5dr Reduction Gear 1sp AC168kW [MY24],67990,"$67,990",681,,QLD,,False,2026-07-12,2026-07-12,
+kia-ev6,drive,g-134798,2026 Kia EV6,2026,CV PE Air. Wagon 5dr Reduction Gear 1sp AC168kW [MY26],72660,"$72,660",,,,,False,2026-07-12,2026-07-12,
+kia-ev6,drive,134798,Sample image only,2026,,72660,"$72,660",582,,,,False,2026-07-12,2026-07-12,https://www.drive.com.au/cars-for-sale/car/g-134798/
+kia-ev6,drive,g-134799,2026 Kia EV6,2026,CV PE GT-Line. Wagon 5dr Reduction Gear 1sp AC168kW [MY26],79660,"$79,660",,,,,False,2026-07-12,2026-07-12,
+kia-ev6,drive,134799,Sample image only,2026,,79660,"$79,660",560,,,,False,2026-07-12,2026-07-12,https://www.drive.com.au/cars-for-sale/car/g-134799/
+kia-ev6,drive,g-134800,2026 Kia EV6,2026,CV PE GT-Line. Wagon 5dr Reduction Gear 1sp AWD AC239kW [MY26],87660,"$87,660",,,,,False,2026-07-12,2026-07-12,
+kia-ev6,drive,134800,Sample image only,2026,,87660,"$87,660",522,,,,False,2026-07-12,2026-07-12,https://www.drive.com.au/cars-for-sale/car/g-134800/
+kia-ev6,drive,g-134801,2026 Kia EV6,2026,CV PE GT. Wagon 5dr Reduction Gear 1sp AWD AC478kW [MY26],99660,"$99,660",,,,,False,2026-07-12,2026-07-12,
+kia-ev6,drive,134801,Sample image only,2026,,99660,"$99,660",450,,,,False,2026-07-12,2026-07-12,https://www.drive.com.au/cars-for-sale/car/g-134801/
+kia-ev6,drive,ev6,Kia EV6 Reviews,,,,,,,,,False,2026-07-12,2026-07-12,https://www.drive.com.au/showrooms/kia/ev6/#review-slider
+subaru-solterra,drive,970156761,2025 Subaru Solterra,2025,E1-1 AWD Touring. Wagon 5dr Reduction Gear 1sp 160kW [MY25],53990,"$53,990",2190,,QLD,,False,2026-07-12,2026-07-12,
+subaru-solterra,drive,969774482,2024 Subaru Solterra,2024,E1-1 AWD Touring. Wagon 5dr Reduction Gear 1sp 160kW [MY24],59700,"$59,700",2603,,QLD,,False,2026-07-12,2026-07-12,
+subaru-solterra,drive,969788863,2024 Subaru Solterra,2024,E1-1 AWD Touring. Wagon 5dr Reduction Gear 1sp 160kW [MY24],59700,"$59,700",2603,,QLD,,False,2026-07-12,2026-07-12,
+subaru-solterra,drive,g-107999,2026 Subaru Solterra,2026,E1-1 AWD. Wagon 5dr Reduction Gear 1sp 252kW [MY26],61990,"$61,990",,,,,False,2026-07-12,2026-07-12,
+subaru-solterra,drive,107999,Sample image only Sample image only Sample image only Sample image only < View Listing >,2026,,61990,"$61,990",566,,,,False,2026-07-12,2026-07-12,https://www.drive.com.au/cars-for-sale/car/g-107999/
+subaru-solterra,drive,970146178,2025 Subaru Solterra,2025,E1-1 AWD. Wagon 5dr Reduction Gear 1sp 252kW [MY26],65433,"$65,433",7,,QLD,,False,2026-07-12,2026-07-12,
+subaru-solterra,drive,970153842,2025 Subaru Solterra,2025,E1-1 AWD. Wagon 5dr Reduction Gear 1sp 252kW [MY26],66490,"$66,490",,,QLD,,False,2026-07-12,2026-07-12,
+subaru-solterra,drive,970258740,2025 Subaru Solterra,2025,E1-1 AWD. Wagon 5dr Reduction Gear 1sp 252kW [MY26],67960,"$67,960",2903,,QLD,,False,2026-07-12,2026-07-12,
+subaru-solterra,drive,g-108000,2026 Subaru Solterra,2026,E1-1 AWD Touring. Wagon 5dr Reduction Gear 1sp 252kW [MY26],67990,"$67,990",,,,,False,2026-07-12,2026-07-12,
+subaru-solterra,drive,108000,Sample image only Sample image only Sample image only Sample image only < View Listing >,2026,,67990,"$67,990",517,,,,False,2026-07-12,2026-07-12,https://www.drive.com.au/cars-for-sale/car/g-108000/
+subaru-solterra,drive,970169032,2026 Subaru Solterra,2026,E1-1 AWD Touring. Wagon 5dr Reduction Gear 1sp 252kW [MY26],73990,"$73,990",524,,QLD,,False,2026-07-12,2026-07-12,
+subaru-solterra,drive,solterra,Subaru Solterra Reviews,,,,,,,,,False,2026-07-12,2026-07-12,https://www.drive.com.au/showrooms/subaru/solterra/#review-slider

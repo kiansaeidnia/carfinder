@@ -1,0 +1,28 @@
+New matches on 2026-07-12 within ~250 km of Cairns QLD 4870:
+
+- **2024 Kia EV6** — $67,990, 681 km, QLD (distance unknown) — [drive]()
+- **2023 Kia EV6** — $44,175, 33,532 km, QLD (distance unknown) — [drive]()
+- **2023 Kia EV6** — $66,989, 13,638 km, QLD (distance unknown) — [drive]()
+- **2026 Kia EV6** — $72,660, odo n/a, ? (distance unknown) — [drive]()
+- **2026 Kia EV6** — $79,660, odo n/a, ? (distance unknown) — [drive]()
+- **2026 Kia EV6** — $87,660, odo n/a, ? (distance unknown) — [drive]()
+- **2026 Kia EV6** — $99,660, odo n/a, ? (distance unknown) — [drive]()
+- **Kia EV6 Reviews** — price n/a, odo n/a, ? (distance unknown) — [drive](https://www.drive.com.au/showrooms/kia/ev6/#review-slider)
+- **Sample image only** — $72,660, 582 km, ? (distance unknown) — [drive](https://www.drive.com.au/cars-for-sale/car/g-134798/)
+- **Sample image only** — $79,660, 560 km, ? (distance unknown) — [drive](https://www.drive.com.au/cars-for-sale/car/g-134799/)
+- **Sample image only** — $87,660, 522 km, ? (distance unknown) — [drive](https://www.drive.com.au/cars-for-sale/car/g-134800/)
+- **Sample image only** — $99,660, 450 km, ? (distance unknown) — [drive](https://www.drive.com.au/cars-for-sale/car/g-134801/)
+- **2024 Subaru Solterra** — $59,700, 2,603 km, QLD (distance unknown) — [drive]()
+- **2024 Subaru Solterra** — $59,700, 2,603 km, QLD (distance unknown) — [drive]()
+- **2025 Subaru Solterra** — $65,433, 7 km, QLD (distance unknown) — [drive]()
+- **2025 Subaru Solterra** — $66,490, odo n/a, QLD (distance unknown) — [drive]()
+- **2025 Subaru Solterra** — $53,990, 2,190 km, QLD (distance unknown) — [drive]()
+- **2026 Subaru Solterra** — $61,990, odo n/a, ? (distance unknown) — [drive]()
+- **2026 Subaru Solterra** — $73,990, 524 km, QLD (distance unknown) — [drive]()
+- **2025 Subaru Solterra** — $67,960, 2,903 km, QLD (distance unknown) — [drive]()
+- **2026 Subaru Solterra** — $67,990, odo n/a, ? (distance unknown) — [drive]()
+- **Subaru Solterra Reviews** — price n/a, odo n/a, ? (distance unknown) — [drive](https://www.drive.com.au/showrooms/subaru/solterra/#review-slider)
+- **Sample image only Sample image only Sample image only Sample image only < View Listing >** — $61,990, 566 km, ? (distance unknown) — [drive](https://www.drive.com.au/cars-for-sale/car/g-107999/)
+- **Sample image only Sample image only Sample image only Sample image only < View Listing >** — $67,990, 517 km, ? (distance unknown) — [drive](https://www.drive.com.au/cars-for-sale/car/g-108000/)
+
+Full report: see `data/report.html` / `data/latest.csv`.
