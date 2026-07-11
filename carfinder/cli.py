@@ -229,7 +229,7 @@ def run(argv: list[str] | None = None) -> int:
 
     # ---- console output
     print(f"\n{'=' * 62}")
-    print(f"carfinder run {run_date} — {len(entries)} active listings, "
+    print(f"carfinder run {run_date} - {len(entries)} active listings, "
           f"{len(outcome.new_keys)} new, {len(outcome.price_changes)} price changes")
     for r in results:
         status = "ok " if r.ok else "FAIL"
