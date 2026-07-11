@@ -1,0 +1,305 @@
+{
+ "listings": {
+  "drive:107999": {
+   "active": true,
+   "condition": null,
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-07-12",
+   "last_seen": "2026-07-12",
+   "location": null,
+   "odometer_km": 566,
+   "price": 61990,
+   "price_history": [
+    [
+     "2026-07-12",
+     61990
+    ]
+   ],
+   "price_text": "$61,990",
+   "query_key": "subaru-solterra",
+   "source": "drive",
+   "source_id": "107999",
+   "state": null,
+   "title": "2026 Subaru Solterra",
+   "url": "https://www.drive.com.au/cars-for-sale/car/g-107999/",
+   "variant": "E1-1 AWD. Wagon 5dr Reduction Gear 1sp 252kW [MY26]",
+   "variant_match": false,
+   "year": 2026
+  },
+  "drive:108000": {
+   "active": true,
+   "condition": null,
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-07-12",
+   "last_seen": "2026-07-12",
+   "location": null,
+   "odometer_km": 517,
+   "price": 67990,
+   "price_history": [
+    [
+     "2026-07-12",
+     67990
+    ]
+   ],
+   "price_text": "$67,990",
+   "query_key": "subaru-solterra",
+   "source": "drive",
+   "source_id": "108000",
+   "state": null,
+   "title": "2026 Subaru Solterra",
+   "url": "https://www.drive.com.au/cars-for-sale/car/g-108000/",
+   "variant": "E1-1 AWD Touring. Wagon 5dr Reduction Gear 1sp 252kW [MY26]",
+   "variant_match": false,
+   "year": 2026
+  },
+  "drive:117154": {
+   "active": true,
+   "condition": null,
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-07-12",
+   "last_seen": "2026-07-12",
+   "location": null,
+   "odometer_km": 567,
+   "price": 54990,
+   "price_history": [
+    [
+     "2026-07-12",
+     54990
+    ]
+   ],
+   "price_text": "$54,990",
+   "query_key": "byd-sealion-7",
+   "source": "drive",
+   "source_id": "117154",
+   "state": null,
+   "title": "2026 BYD SEALION 7",
+   "url": "https://www.drive.com.au/cars-for-sale/car/g-117154/",
+   "variant": "Premium Wagon 5dr Auto 1sp AC230kW [MY25]",
+   "variant_match": true,
+   "year": 2026
+  },
+  "drive:117155": {
+   "active": true,
+   "condition": null,
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-07-12",
+   "last_seen": "2026-07-12",
+   "location": null,
+   "odometer_km": 542,
+   "price": 63990,
+   "price_history": [
+    [
+     "2026-07-12",
+     63990
+    ]
+   ],
+   "price_text": "$63,990",
+   "query_key": "byd-sealion-7",
+   "source": "drive",
+   "source_id": "117155",
+   "state": null,
+   "title": "2026 BYD SEALION 7",
+   "url": "https://www.drive.com.au/cars-for-sale/car/g-117155/",
+   "variant": "Performance Wagon 5dr Auto 1sp AWD 390kW [MY25]",
+   "variant_match": false,
+   "year": 2026
+  },
+  "drive:134798": {
+   "active": true,
+   "condition": null,
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-07-12",
+   "last_seen": "2026-07-12",
+   "location": null,
+   "odometer_km": 582,
+   "price": 72660,
+   "price_history": [
+    [
+     "2026-07-12",
+     72660
+    ]
+   ],
+   "price_text": "$72,660",
+   "query_key": "kia-ev6",
+   "source": "drive",
+   "source_id": "134798",
+   "state": null,
+   "title": "2026 Kia EV6",
+   "url": "https://www.drive.com.au/cars-for-sale/car/g-134798/",
+   "variant": "CV PE Air. Wagon 5dr Reduction Gear 1sp AC168kW [MY26]",
+   "variant_match": false,
+   "year": 2026
+  },
+  "drive:134799": {
+   "active": true,
+   "condition": null,
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-07-12",
+   "last_seen": "2026-07-12",
+   "location": null,
+   "odometer_km": 560,
+   "price": 79660,
+   "price_history": [
+    [
+     "2026-07-12",
+     79660
+    ]
+   ],
+   "price_text": "$79,660",
+   "query_key": "kia-ev6",
+   "source": "drive",
+   "source_id": "134799",
+   "state": null,
+   "title": "2026 Kia EV6",
+   "url": "https://www.drive.com.au/cars-for-sale/car/g-134799/",
+   "variant": "CV PE GT-Line. Wagon 5dr Reduction Gear 1sp AC168kW [MY26]",
+   "variant_match": false,
+   "year": 2026
+  },
+  "drive:134800": {
+   "active": true,
+   "condition": null,
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-07-12",
+   "last_seen": "2026-07-12",
+   "location": null,
+   "odometer_km": 522,
+   "price": 87660,
+   "price_history": [
+    [
+     "2026-07-12",
+     87660
+    ]
+   ],
+   "price_text": "$87,660",
+   "query_key": "kia-ev6",
+   "source": "drive",
+   "source_id": "134800",
+   "state": null,
+   "title": "2026 Kia EV6",
+   "url": "https://www.drive.com.au/cars-for-sale/car/g-134800/",
+   "variant": "CV PE GT-Line. Wagon 5dr Reduction Gear 1sp AWD AC239kW [MY26]",
+   "variant_match": false,
+   "year": 2026
+  },
+  "drive:134801": {
+   "active": true,
+   "condition": null,
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-07-12",
+   "last_seen": "2026-07-12",
+   "location": null,
+   "odometer_km": 450,
+   "price": 99660,
+   "price_history": [
+    [
+     "2026-07-12",
+     99660
+    ]
+   ],
+   "price_text": "$99,660",
+   "query_key": "kia-ev6",
+   "source": "drive",
+   "source_id": "134801",
+   "state": null,
+   "title": "2026 Kia EV6",
+   "url": "https://www.drive.com.au/cars-for-sale/car/g-134801/",
+   "variant": "CV PE GT. Wagon 5dr Reduction Gear 1sp AWD AC478kW [MY26]",
+   "variant_match": false,
+   "year": 2026
+  },
+  "drive:969928434": {
+   "active": true,
+   "condition": "demo",
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-07-12",
+   "last_seen": "2026-07-12",
+   "location": "QLD",
+   "odometer_km": 681,
+   "price": 67990,
+   "price_history": [
+    [
+     "2026-07-12",
+     67990
+    ]
+   ],
+   "price_text": "$67,990",
+   "query_key": "kia-ev6",
+   "source": "drive",
+   "source_id": "969928434",
+   "state": "QLD",
+   "title": "2024 Kia EV6",
+   "url": "https://www.drive.com.au/cars-for-sale/car/969928434/",
+   "variant": "CV Air. Wagon 5dr Reduction Gear 1sp AC168kW [MY24]",
+   "variant_match": false,
+   "year": 2024
+  },
+  "drive:970292539": {
+   "active": true,
+   "condition": "used",
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-07-12",
+   "last_seen": "2026-07-12",
+   "location": "QLD",
+   "odometer_km": 13638,
+   "price": 66989,
+   "price_history": [
+    [
+     "2026-07-12",
+     66989
+    ]
+   ],
+   "price_text": "$66,989",
+   "query_key": "kia-ev6",
+   "source": "drive",
+   "source_id": "970292539",
+   "state": "QLD",
+   "title": "2023 Kia EV6",
+   "url": "https://www.drive.com.au/cars-for-sale/car/970292539/",
+   "variant": "CV GT. Wagon 5dr Reduction Gear 1sp AWD AC430kW [MY23]",
+   "variant_match": false,
+   "year": 2023
+  }
+ },
+ "runs": [
+  {
+   "date": "2026-07-12",
+   "new": 10,
+   "sources_ok": [
+    "drive"
+   ],
+   "total_active": 10
+  }
+ ],
+ "version": 1
+}
