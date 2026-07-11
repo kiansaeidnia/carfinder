@@ -45,8 +45,9 @@ class CarsGuide(Source):
         if data is not None:
             raws.extend(common.walk_for_listings(data, result.url))
 
-        if not raws:
-            raws = common.harvest_cards(soup, r"/buy-a-car/.+\d{5,}", result.url)
+        # Cards merge unconditionally: junk from the state-blob walk must not
+        # suppress real listings present in the HTML (URL-keyed dedupe below).
+        raws.extend(common.harvest_cards(soup, r"/buy-a-car/.+\d{5,}", result.url))
 
         seen: dict[str, dict[str, Any]] = {}
         for raw in raws:

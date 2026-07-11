@@ -52,10 +52,22 @@ class TestStateMerge:
         rich = make_listing("A")
         rich.odometer_km = 12345
         merge_run(state, [rich], "2026-07-10", ["demo"])
-        sparse = make_listing("A")
+        sparse = make_listing("A", price=None)
         sparse.odometer_km = None
         merge_run(state, [sparse], "2026-07-11", ["demo"])
-        assert state["listings"]["demo:A"]["odometer_km"] == 12345
+        entry = state["listings"]["demo:A"]
+        assert entry["odometer_km"] == 12345
+        assert entry["price"] == 50000       # None price must not erase it
+
+    def test_reappearing_listing_clears_vanished_marker(self):
+        state = {"version": 1, "listings": {}, "runs": []}
+        merge_run(state, [make_listing("A")], "2026-07-10", ["demo"])
+        merge_run(state, [], "2026-07-11", ["demo"])           # vanishes
+        assert state["listings"]["demo:A"]["active"] is False
+        merge_run(state, [make_listing("A")], "2026-07-12", ["demo"])  # relisted
+        entry = state["listings"]["demo:A"]
+        assert entry["active"] is True
+        assert "vanished_on" not in entry
 
     def test_state_roundtrip(self, tmp_path: Path):
         state = {"version": 1, "listings": {}, "runs": []}

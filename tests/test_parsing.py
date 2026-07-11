@@ -35,6 +35,13 @@ class TestTextParsers:
         assert common.infer_condition("Quality used vehicle") == "used"
         assert common.infer_condition("just a title") is None
 
+    def test_location_extraction(self):
+        assert common.extract_location_au(
+            "2022 Kia EV6 $61,990 31,500 km Trinity Beach, QLD 4879 dealer ad"
+        ) == "Trinity Beach, QLD 4879"
+        assert common.extract_location_au("Dealer: Cairns QLD") == "Cairns, QLD"
+        assert common.extract_location_au("no location in here") is None
+
 
 # ----------------------------------------------------------------- JSON-LD
 
@@ -154,6 +161,49 @@ class TestEmbeddedJson:
     def test_missing_returns_none(self):
         assert common.extract_embedded_json("<html></html>",
                                             [r"window\.APP_DATA\s*="]) is None
+
+
+# ---------------------------------------------------------- drive discovery
+
+
+class TestDriveDiscovery:
+    def test_search_paths_from_html_and_json(self):
+        from carfinder.sources.drive import Drive
+        html = ('<a href="/cars-for-sale/search/qld/">QLD</a>'
+                '{"link":"\\/cars-for-sale\\/search\\/qld\\/kia\\/"}'
+                '<a href="/cars-for-sale/search/qld/kia/ev6/">EV6</a>')
+        paths = Drive._search_paths(html)
+        assert "/cars-for-sale/search/qld/" in paths
+        assert "/cars-for-sale/search/qld/kia/" in paths      # from escaped JSON
+        assert "/cars-for-sale/search/qld/kia/ev6/" in paths
+
+    def test_pick_model_over_make(self):
+        from carfinder.sources.drive import Drive
+        d = Drive()
+        paths = ["/cars-for-sale/search/qld/",
+                 "/cars-for-sale/search/qld/kia/",
+                 "/cars-for-sale/search/qld/kia/ev6/",
+                 "/cars-for-sale/search/qld/kia/ev6/used/"]
+        model_url, make_url = d._pick_filter_url(paths, "kia", ["ev6"])
+        assert model_url == "/cars-for-sale/search/qld/kia/ev6/"
+        assert make_url == "/cars-for-sale/search/qld/kia/"
+
+    def test_sealion7_not_confused_with_sealion6(self):
+        from carfinder.sources.drive import Drive
+        d = Drive()
+        paths = ["/cars-for-sale/search/qld/byd/sealion-6/",
+                 "/cars-for-sale/search/qld/byd/sealion-7/"]
+        model_url, _ = d._pick_filter_url(
+            paths, "byd", ["sealion-7", "sealion7", "sea-lion-7", "sealion"])
+        assert model_url == "/cars-for-sale/search/qld/byd/sealion-7/"
+
+    def test_make_only_when_no_model_link(self):
+        from carfinder.sources.drive import Drive
+        d = Drive()
+        paths = ["/cars-for-sale/search/qld/", "/cars-for-sale/search/qld/subaru/"]
+        model_url, make_url = d._pick_filter_url(paths, "subaru", ["solterra"])
+        assert model_url is None
+        assert make_url == "/cars-for-sale/search/qld/subaru/"
 
 
 # --------------------------------------------------------------- HTML cards

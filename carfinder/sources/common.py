@@ -84,6 +84,21 @@ def clean_text(text: str | None) -> str:
     return re.sub(r"\s+", " ", text or "").strip()
 
 
+_LOCATION_RE = re.compile(
+    r"\b([A-Z][A-Za-z' ]{2,30}?),?\s+(QLD|NSW|VIC|SA|WA|TAS|NT|ACT)\b(?:[ ,]+(\d{4}))?")
+
+
+def extract_location_au(text: str | None) -> str | None:
+    """'... Trinity Beach, QLD 4879 ...' -> 'Trinity Beach, QLD 4879'."""
+    if not text:
+        return None
+    m = _LOCATION_RE.search(text)
+    if not m:
+        return None
+    suburb, state, postcode = m.group(1).strip(), m.group(2), m.group(3)
+    return f"{suburb}, {state}" + (f" {postcode}" if postcode else "")
+
+
 # ------------------------------------------------------------------- JSON-LD
 
 _VEHICLE_TYPES = {"vehicle", "car", "product", "motorizedvehicle", "automobile"}
@@ -392,6 +407,7 @@ def harvest_cards(soup: BeautifulSoup, href_pattern: str,
             "odometer_km": parse_km(text),
             "year": parse_year(title) or parse_year(text),
             "condition": infer_condition(text),
+            "location": extract_location_au(text),
         }
     return list(seen.values())
 

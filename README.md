@@ -83,10 +83,23 @@ site never makes cars look sold.
 Scrapers live downstream of sites that change markup and tune anti-bot
 systems whenever they like. This tool is built to degrade gracefully — every
 run reports per-source status (`ok` / blocked / parse-failure) in the report
-footer and job summary instead of pretending. GitHub's datacenter IPs will
-sometimes be blocked where your home connection isn't; if a source shows
-persistent failures in the Actions summary, run locally and compare, and grab
-the `debug-pages` artifact to see exactly what the site returned.
+footer and job summary instead of pretending.
+
+**Verified behaviour from GitHub-hosted runners** (shakedown runs on
+2026-07-11): carsales, autotrader, carsguide and gumtree all answer 403 to
+GitHub's datacenter IPs — even through the headless-browser fallback — so on
+Actions they will show as blocked in the summary. **drive.com.au works from
+Actions** and is what the daily watcher effectively monitors. Your home
+connection is a normal shopper to all five sites, so `python -m carfinder`
+run locally is expected to give full coverage — that's the recommended way
+to do a proper sweep, with the Actions run as your automated daily lookout.
+
+If you want full-coverage automation, add a
+[self-hosted runner](https://docs.github.com/en/actions/hosting-your-own-runners)
+on a home machine and switch `runs-on` in the workflow — the watcher then
+scrapes from your residential IP on schedule. If a source shows persistent
+parse failures, its diagnostics (page title, URL samples, harvested objects)
+are right in the Actions log, and `--dump-html DIR` saves the raw pages.
 
 ## Tweaking
 

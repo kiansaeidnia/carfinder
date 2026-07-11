@@ -48,9 +48,10 @@ class Autotrader(Source):
             if raw["title"] or raw["url"]:
                 raws.append(raw)
 
-        if not raws:
-            raws = common.harvest_cards(
-                soup, r"(OAG-AD-|/for-sale/[^\"']+/[a-z0-9-]+-\d{5,})", result.url)
+        # Cards merge unconditionally: junk from the state-blob walk must not
+        # suppress real listings present in the HTML (URL-keyed dedupe below).
+        raws.extend(common.harvest_cards(
+            soup, r"(OAG-AD-|/for-sale/[^\"']+/[a-z0-9-]+-\d{5,})", result.url))
 
         # De-dupe by URL (walk + JSON-LD often overlap).
         seen: dict[str, dict[str, Any]] = {}

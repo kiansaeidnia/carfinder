@@ -64,12 +64,14 @@ def merge_run(state: dict[str, Any], listings: list[Listing], run_date: str,
             continue
         old_price = entry.get("price")
         fresh = listing.to_dict()
-        # Never let a sparse re-scrape blank out fields we already knew.
+        # Never let a sparse re-scrape blank out fields we already knew;
+        # variant_match is a recomputed bool, so False is a real value there.
         for field_name, value in fresh.items():
-            if value not in (None, "", [], {}, False) or field_name in ("price", "distance_km"):
+            if value not in (None, "", [], {}, False) or field_name == "variant_match":
                 entry[field_name] = value
         entry["last_seen"] = run_date
         entry["active"] = True
+        entry.pop("vanished_on", None)  # it's back (relisted or was missed)
         if (listing.price is not None and old_price is not None
                 and listing.price != old_price):
             outcome.price_changes.append((key, old_price, listing.price))

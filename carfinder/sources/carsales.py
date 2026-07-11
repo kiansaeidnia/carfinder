@@ -62,11 +62,5 @@ class Carsales(Source):
 
         for raw in raws:
             if not raw.get("location"):
-                raw["location"] = self._location_from_text(raw.get("card_text", ""))
+                raw["location"] = common.extract_location_au(raw.get("card_text", ""))
         return raws
-
-    @staticmethod
-    def _location_from_text(text: str) -> str | None:
-        import re
-        m = re.search(r"\b([A-Z][A-Za-z' ]{2,30}),?\s+(QLD|NSW|VIC|SA|WA|TAS|NT|ACT)\b", text)
-        return f"{m.group(1).strip()}, {m.group(2)}" if m else None
