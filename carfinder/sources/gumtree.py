@@ -20,6 +20,7 @@ from .base import Source
 class Gumtree(Source):
     name = "gumtree"
     site_url = "https://www.gumtree.com.au"
+    interesting_hrefs = r"/s-(?:ad|cars-vans-utes)/[^\"'#?]+"
 
     def candidate_urls(self, query: Query, cfg: RunConfig, page: int) -> list[str]:
         kw = query.keywords.replace(" ", "+")

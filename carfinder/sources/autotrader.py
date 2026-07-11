@@ -23,6 +23,7 @@ _SLUGS = {
 class Autotrader(Source):
     name = "autotrader"
     site_url = "https://www.autotrader.com.au"
+    interesting_hrefs = r"/for-sale/[^\"'#?]+"
 
     def candidate_urls(self, query: Query, cfg: RunConfig, page: int) -> list[str]:
         make, model = _SLUGS[query.key]

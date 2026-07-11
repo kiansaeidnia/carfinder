@@ -235,6 +235,34 @@ def _balanced_json(text: str, start: int) -> str | None:
 
 
 _TITLE_KEYS = ("title", "name", "heading", "adTitle", "displayTitle")
+_MAKE_KEYS = ("make", "makeName", "manufacturer", "brand")
+_MODEL_KEYS = ("model", "modelName")
+_VARIANT_KEYS = ("variant", "variantName", "badge", "trim", "series")
+_YEAR_KEYS = ("year", "buildYear", "modelYear", "yearOfManufacture")
+
+
+def _str_or_name(value: Any) -> str | None:
+    """'Kia' from either a plain string or a {'name': 'Kia'}-style dict."""
+    if isinstance(value, str) and 0 < len(value) < 40:
+        return value
+    if isinstance(value, dict):
+        inner = value.get("name") or value.get("label") or value.get("value")
+        if isinstance(inner, str) and 0 < len(inner) < 40:
+            return inner
+    return None
+
+
+def _synth_title(node: dict[str, Any]) -> str | None:
+    """Build '2025 BYD Sealion 7 Premium' from split make/model fields —
+    several sites' state blobs carry no combined title."""
+    make = next((v for k in _MAKE_KEYS if (v := _str_or_name(node.get(k)))), None)
+    model = next((v for k in _MODEL_KEYS if (v := _str_or_name(node.get(k)))), None)
+    if not make or not model:
+        return None
+    year = next((node[k] for k in _YEAR_KEYS
+                 if str(node.get(k, "")).isdigit() and 1990 < int(node[k]) < 2035), None)
+    variant = next((v for k in _VARIANT_KEYS if (v := _str_or_name(node.get(k)))), None)
+    return clean_text(" ".join(str(p) for p in (year, make, model, variant) if p))
 _URL_KEYS = ("url", "detailsUrl", "detailUrl", "href", "link", "seoUrl", "adUrl", "canonicalUrl")
 _ID_KEYS = ("id", "adId", "listingId", "networkId", "stockNumber", "sseId")
 _PRICE_KEYS = ("price", "priceText", "displayPrice", "advertisedPrice", "priceDisplay", "askingPrice")
@@ -256,6 +284,8 @@ def walk_for_listings(node: Any, base_url: str,
     if isinstance(node, dict):
         title = next((node[k] for k in _TITLE_KEYS
                       if isinstance(node.get(k), str) and len(node[k]) > 6), None)
+        if not title:
+            title = _synth_title(node)
         if title:
             price_val = next((node[k] for k in _PRICE_KEYS if node.get(k) is not None), None)
             url_val = next((node[k] for k in _URL_KEYS

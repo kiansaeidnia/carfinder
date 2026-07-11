@@ -25,6 +25,7 @@ _SLUGS = {
 class Carsales(Source):
     name = "carsales"
     site_url = "https://www.carsales.com.au"
+    interesting_hrefs = r"/cars/[^\"'#?]+"
 
     def candidate_urls(self, query: Query, cfg: RunConfig, page: int) -> list[str]:
         slug = _SLUGS[query.key]

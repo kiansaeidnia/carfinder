@@ -24,20 +24,29 @@ class Drive(Source):
     name = "drive"
     site_url = "https://www.drive.com.au"
 
+    # Logged by diagnostics so failed runs reveal the site's real URL shapes.
+    interesting_hrefs = r"/cars-for-sale/(?:car|search)/[^\"'#?]+"
+
     def candidate_urls(self, query: Query, cfg: RunConfig, page: int) -> list[str]:
         make, model = _SLUGS[query.key]
         page_q = f"&page={page}" if page > 1 else ""
         page_seg = f"?page={page}" if page > 1 else ""
         return [
+            # Path-based search shapes first (the filter UI links this way),
+            # then query-param fallbacks.
+            f"{self.site_url}/cars-for-sale/search/{make}/{model}/queensland/{page_seg}",
+            f"{self.site_url}/cars-for-sale/search/{make}/{model}/{page_seg}",
             f"{self.site_url}/cars-for-sale/search/?make={make}&model={model}"
             f"&state=qld{page_q}",
-            f"{self.site_url}/cars-for-sale/search/?make={make}&model={model}{page_q}",
-            f"{self.site_url}/cars-for-sale/{make}/{model}/{page_seg}",
+            f"{self.site_url}/cars-for-sale/search/?makes={make}&models={model}{page_q}",
         ]
 
     def parse(self, result: FetchResult, query: Query) -> list[dict[str, Any]]:
         raws: list[dict[str, Any]] = []
 
+        # All strategies run and merge: the state blob may only contain page
+        # furniture (featured rails etc.) while the real cards are in HTML —
+        # an early return on junk would mask them.
         data = common.extract_next_data(result.text)
         if data is not None:
             raws.extend(common.walk_for_listings(data, result.url))
@@ -48,9 +57,7 @@ class Drive(Source):
             if raw["title"] or raw["url"]:
                 raws.append(raw)
 
-        if not raws:
-            raws = common.harvest_cards(soup, r"/cars-for-sale/(?:car|vehicle|listing)/",
-                                        result.url)
+        raws.extend(common.harvest_cards(soup, r"/cars-for-sale/car/", result.url))
 
         seen: dict[str, dict[str, Any]] = {}
         for raw in raws:

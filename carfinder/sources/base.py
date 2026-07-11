@@ -17,6 +17,9 @@ log = logging.getLogger("carfinder.sources")
 class Source(ABC):
     name: str = "base"
     site_url: str = ""
+    # Optional regex; diagnostics logs sample hrefs matching it so a failed
+    # run's logs reveal the site's actual URL shapes.
+    interesting_hrefs: str | None = None
 
     @abstractmethod
     def candidate_urls(self, query: Query, cfg: RunConfig, page: int) -> list[str]:
@@ -157,6 +160,16 @@ class Source(ABC):
         log.info("%s diagnostics [%s]: top anchor prefixes: %s",
                  self.name, query.key,
                  ", ".join(f"{p}({n})" for p, n in top) or "none")
+        if self.interesting_hrefs:
+            samples: list[str] = []
+            for href in anchors:
+                m = re.search(self.interesting_hrefs, href)
+                if m and m.group(0) not in samples:
+                    samples.append(m.group(0))
+                if len(samples) >= 14:
+                    break
+            log.info("%s diagnostics [%s]: sample hrefs: %s",
+                     self.name, query.key, " | ".join(samples) or "none")
         for raw in raws[:8]:
             log.info("%s diagnostics [%s]: raw title=%r price=%r url=%r loc=%r",
                      self.name, query.key, str(raw.get("title"))[:90],

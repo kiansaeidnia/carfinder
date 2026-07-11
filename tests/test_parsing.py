@@ -112,6 +112,35 @@ class TestNextData:
         assert premium["url"].startswith("https://www.autotrader.com.au/for-sale/")
 
 
+SPLIT_FIELDS_PAGE = """
+<html><body>
+<script id="__NEXT_DATA__" type="application/json">
+{"props":{"results":[
+  {"makeName":"Subaru","modelName":"Solterra","variantName":"Touring",
+   "buildYear":2026,"price":69990,"url":"/cars-for-sale/car/abc-123456",
+   "dealerLocation":"Cairns QLD"}
+]}}
+</script></body></html>
+"""
+
+
+class TestSynthesizedTitles:
+    def test_split_make_model_fields_become_title(self):
+        data = common.extract_next_data(SPLIT_FIELDS_PAGE)
+        raws = common.walk_for_listings(data, "https://www.drive.com.au/")
+        assert len(raws) == 1
+        assert raws[0]["title"] == "2026 Subaru Solterra Touring"
+        assert raws[0]["price"] == 69990
+        assert raws[0]["location"] == "Cairns QLD"
+
+    def test_nested_name_dicts(self):
+        node = {"make": {"name": "BYD"}, "model": {"name": "Sealion 7"},
+                "badge": "Premium", "year": "2025", "price": 54990,
+                "url": "/x/999999"}
+        raws = common.walk_for_listings(node, "https://example.com/")
+        assert raws and raws[0]["title"] == "2025 BYD Sealion 7 Premium"
+
+
 # ------------------------------------------------------------ embedded JSON
 
 
