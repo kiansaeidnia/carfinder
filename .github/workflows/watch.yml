@@ -1,0 +1,91 @@
+name: Daily car watch
+
+on:
+  schedule:
+    - cron: "0 20 * * *"   # 06:00 Cairns time (AEST = UTC+10, no DST in QLD)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: car-watch
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Scrape listings
+        run: |
+          set +e
+          python -m carfinder --out data --dump-html debug_html -v
+          code=$?
+          # Exit 3 = every source failed this run; keep going so the summary,
+          # artifacts and state still land where we can see them.
+          if [ "$code" -ne 0 ] && [ "$code" -ne 3 ]; then exit "$code"; fi
+
+      - name: Publish job summary
+        if: always()
+        run: |
+          if [ -f data/run-summary.md ]; then
+            cat data/run-summary.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload report artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: car-report
+          path: |
+            data/report.html
+            data/latest.csv
+            data/run-summary.md
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Upload raw pages for debugging
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-pages
+          path: debug_html/
+          if-no-files-found: ignore
+          retention-days: 5
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Car watch: $(date -u +%Y-%m-%d) data update"
+            git push
+          fi
+
+      - name: Open issue for new listings
+        if: ${{ hashFiles('data/new-listings.md') != '' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="🚗 New car listings near Cairns — $(date -u +%Y-%m-%d)"
+          # Assigning notifies the owner; fall back to an unassigned issue.
+          gh issue create --title "$title" --body-file data/new-listings.md \
+            --assignee "${{ github.repository_owner }}" \
+          || gh issue create --title "$title" --body-file data/new-listings.md
