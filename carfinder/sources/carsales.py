@@ -31,7 +31,8 @@ class Carsales(Source):
         offset = (page - 1) * 12
         suffix = f"?sort=~Price&offset={offset}" if page > 1 else "?sort=~Price"
         return [
-            # State-scoped SEO path first (fewer pages to walk), then national.
+            # State-scoped SEO paths first (fewer pages to walk), then national.
+            f"{self.site_url}/cars/{slug}/queensland-state/{suffix}",
             f"{self.site_url}/cars/{slug}/qld-state/{suffix}",
             f"{self.site_url}/cars/{slug}/{suffix}",
         ]

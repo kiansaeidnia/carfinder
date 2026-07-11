@@ -33,7 +33,7 @@ jobs:
       - name: Scrape listings
         run: |
           set +e
-          python -m carfinder --out data --dump-html debug_html -v
+          python -m carfinder --out data --dump-html debug_html --max-pages 5 -v
           code=$?
           # Exit 3 = every source failed this run; keep going so the summary,
           # artifacts and state still land where we can see them.
@@ -76,6 +76,8 @@ jobs:
             echo "No data changes to commit."
           else
             git commit -m "Car watch: $(date -u +%Y-%m-%d) data update"
+            # The branch may have moved (code pushes) since checkout.
+            git pull --rebase origin "${GITHUB_REF_NAME}"
             git push
           fi
 
