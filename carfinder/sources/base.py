@@ -51,6 +51,7 @@ class Source(ABC):
 
             page_raws: list[dict[str, Any]] = []
             page_fetch: FetchResult | None = None
+            fallback: tuple[FetchResult, list[dict[str, Any]]] | None = None
             for idx, url in candidates:
                 fetch = fetcher.get(url)
                 if not fetch.ok:
@@ -58,14 +59,30 @@ class Source(ABC):
                     log.info("%s: %s -> status %s via %s", self.name, url,
                              fetch.status, fetch.engine)
                     continue
-                page_fetch = fetch
                 raws = self.parse(fetch, query)
-                if raws:
+                if not raws:
+                    log.info("%s: %s fetched OK but no listings parsed",
+                             self.name, url)
+                    self._log_diagnostics(fetch, raws, query)
+                    fallback = fallback or (fetch, [])
+                    continue
+                # Guard against soft-404s: sites route unknown search paths
+                # to a generic page full of unrelated cars. A candidate only
+                # wins when something on it matches the model we want.
+                if any(self._to_listing(r, query) is not None for r in raws):
+                    page_fetch = fetch
                     page_raws = raws
                     working_idx = idx
                     break
-                log.info("%s: %s fetched OK but no listings parsed", self.name, url)
-                self._log_diagnostics(fetch, raws, query)
+                log.info("%s: %s parsed %d listings but none match %s",
+                         self.name, url, len(raws), query.key)
+                fallback = fallback or (fetch, raws)
+            if page_fetch is None and fallback is not None and working_idx is None:
+                # No candidate produced a match; keep the first parseable
+                # page for honest diagnostics and source-ok accounting.
+                page_fetch, page_raws = fallback
+                if page_raws:
+                    self._log_diagnostics(page_fetch, page_raws, query)
 
             if page_fetch is None:
                 if page == 1:
@@ -81,11 +98,6 @@ class Source(ABC):
                 if listing is not None and listing.key not in listings:
                     listings[listing.key] = listing
                     new_on_page += 1
-            if page_raws and new_on_page == 0 and page == 1:
-                # Parsed objects but none survived the model filter — show
-                # what was actually harvested so the mismatch is debuggable
-                # straight from CI logs.
-                self._log_diagnostics(page_fetch, page_raws, query)
             if not page_raws or new_on_page == 0:
                 break
 
@@ -161,15 +173,22 @@ class Source(ABC):
                  self.name, query.key,
                  ", ".join(f"{p}({n})" for p, n in top) or "none")
         if self.interesting_hrefs:
-            samples: list[str] = []
-            for href in anchors:
-                m = re.search(self.interesting_hrefs, href)
-                if m and m.group(0) not in samples:
-                    samples.append(m.group(0))
-                if len(samples) >= 14:
-                    break
+            # Scan the whole document, not just <a> tags — SPA router paths
+            # often live in embedded JSON. Rank query-relevant and deeper
+            # paths first so filter-URL shapes surface within the sample.
+            hay = text.replace("\\/", "/")
+            found: list[str] = []
+            for m in re.finditer(self.interesting_hrefs, hay):
+                s = m.group(0)
+                if s not in found:
+                    found.append(s)
+            tokens = [t for t in re.split(r"[\s/-]+",
+                                          f"{query.make} {query.model}".lower())
+                      if len(t) >= 2]
+            found.sort(key=lambda s: (not any(t in s.lower() for t in tokens),
+                                      -s.count("/")))
             log.info("%s diagnostics [%s]: sample hrefs: %s",
-                     self.name, query.key, " | ".join(samples) or "none")
+                     self.name, query.key, " | ".join(found[:14]) or "none")
         for raw in raws[:8]:
             log.info("%s diagnostics [%s]: raw title=%r price=%r url=%r loc=%r",
                      self.name, query.key, str(raw.get("title"))[:90],

@@ -29,16 +29,16 @@ class Drive(Source):
 
     def candidate_urls(self, query: Query, cfg: RunConfig, page: int) -> list[str]:
         make, model = _SLUGS[query.key]
-        page_q = f"&page={page}" if page > 1 else ""
         page_seg = f"?page={page}" if page > 1 else ""
+        # Observed (run 3 diagnostics): filters are path segments, e.g.
+        # /cars-for-sale/search/qld/ and /cars-for-sale/search/used/, and
+        # unknown segments soft-404 to a generic page — the base.search
+        # soft-404 guard sorts the survivors out.
         return [
-            # Path-based search shapes first (the filter UI links this way),
-            # then query-param fallbacks.
-            f"{self.site_url}/cars-for-sale/search/{make}/{model}/queensland/{page_seg}",
+            f"{self.site_url}/cars-for-sale/search/qld/{make}/{model}/{page_seg}",
             f"{self.site_url}/cars-for-sale/search/{make}/{model}/{page_seg}",
-            f"{self.site_url}/cars-for-sale/search/?make={make}&model={model}"
-            f"&state=qld{page_q}",
-            f"{self.site_url}/cars-for-sale/search/?makes={make}&models={model}{page_q}",
+            f"{self.site_url}/cars-for-sale/search/qld/{make}-{model}/{page_seg}",
+            f"{self.site_url}/cars-for-sale/search/qld/{make}/{page_seg}",
         ]
 
     def parse(self, result: FetchResult, query: Query) -> list[dict[str, Any]]:
