@@ -84,8 +84,11 @@ def clean_text(text: str | None) -> str:
     return re.sub(r"\s+", " ", text or "").strip()
 
 
+# Suburb = 1-4 capitalised words right before the state token; lowercase
+# words ("Dealer in ...") cannot leak into it.
 _LOCATION_RE = re.compile(
-    r"\b([A-Z][A-Za-z' ]{2,30}?),?\s+(QLD|NSW|VIC|SA|WA|TAS|NT|ACT)\b(?:[ ,]+(\d{4}))?")
+    r"\b((?:[A-Z][A-Za-z']*\s+){0,3}[A-Z][A-Za-z']{2,}),?\s+"
+    r"(QLD|NSW|VIC|SA|WA|TAS|NT|ACT)\b(?:[ ,]+(\d{4}))?")
 
 _JUNK_TITLE_RE = re.compile(
     r"sample image|^\s*$|^(?:view|see|more)\b|^(?:photo|image|img)\b", re.IGNORECASE)
@@ -96,15 +99,25 @@ def junk_title(text: str) -> bool:
     return len(clean_text(text)) < 8 or bool(_JUNK_TITLE_RE.search(text))
 
 
+_STATE_NAME_WORDS = re.compile(
+    r"\b(?:queensland|new south wales|western australia|south australia|"
+    r"victoria|tasmania|northern territory|australia)\b", re.IGNORECASE)
+
+
 def extract_location_au(text: str | None) -> str | None:
-    """'... Trinity Beach, QLD 4879 ...' -> 'Trinity Beach, QLD 4879'."""
+    """'... Trinity Beach, QLD 4879 ...' -> 'Trinity Beach, QLD 4879'.
+
+    Skips pseudo-matches where the "suburb" is really a run of state names —
+    typical of nav/footer link lists ('Queensland Western Australia ACT').
+    """
     if not text:
         return None
-    m = _LOCATION_RE.search(text)
-    if not m:
-        return None
-    suburb, state, postcode = m.group(1).strip(), m.group(2), m.group(3)
-    return f"{suburb}, {state}" + (f" {postcode}" if postcode else "")
+    for m in _LOCATION_RE.finditer(text):
+        suburb, state, postcode = m.group(1).strip(), m.group(2), m.group(3)
+        if _STATE_NAME_WORDS.search(suburb):
+            continue
+        return f"{suburb}, {state}" + (f" {postcode}" if postcode else "")
+    return None
 
 
 # ------------------------------------------------------------------- JSON-LD

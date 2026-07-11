@@ -261,12 +261,40 @@ class Drive(Source):
                 listing.location = loc
                 listing.extra["location_from_detail"] = True
 
-    @staticmethod
-    def _location_from_detail(html: str) -> str | None:
+    def _location_from_detail(self, html: str) -> str | None:
+        from .. import geo
+
+        candidates: list[str] = []
+        data = common.extract_next_data(html)
+        if data is not None:
+            for raw in common.walk_for_listings(data, self.site_url):
+                if raw.get("location"):
+                    candidates.append(str(raw["location"]))
         soup = common.soup_of(html)
         for node in common.extract_jsonld_vehicles(soup):
             raw = common.jsonld_to_raw(node, "")
             if raw.get("location"):
-                return raw["location"]
-        text = common.clean_text(soup.get_text(" ")[:20000])
-        return common.extract_location_au(text)
+                candidates.append(str(raw["location"]))
+        text_loc = common.extract_location_au(
+            common.clean_text(soup.get_text(" ")[:20000]))
+        if text_loc:
+            candidates.append(text_loc)
+
+        # Best candidate: suburb-level (postcode or a resolvable locality),
+        # never a bare state, never an ambiguous multi-state string.
+        def score(loc: str) -> int:
+            if loc.strip().upper() in ("QLD", "QUEENSLAND"):
+                return -1
+            if geo.extract_state(loc) is None and not re.search(r"\b\d{4}\b", loc):
+                return -1
+            s = 0
+            if re.search(r"\b\d{4}\b", loc):
+                s += 2
+            if geo.resolve_coords(loc) is not None:
+                s += 1
+            return s
+
+        scored = sorted(((score(c), c) for c in candidates), key=lambda t: -t[0])
+        if scored and scored[0][0] > 0:
+            return scored[0][1]
+        return None

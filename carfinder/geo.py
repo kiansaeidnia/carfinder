@@ -209,16 +209,22 @@ def haversine_km(a: tuple[float, float], b: tuple[float, float]) -> float:
 
 
 def extract_state(location_text: str | None) -> str | None:
-    """Pull an Australian state abbreviation out of free location text."""
+    """Pull an Australian state abbreviation out of free location text.
+
+    Text naming several different states (nav bars, state-filter lists) is
+    ambiguous — return None so the listing is flagged unknown instead of
+    being confidently mislocated.
+    """
     if not location_text:
         return None
     text = location_text.lower()
-    m = re.search(r"\b(qld|nsw|vic|sa|wa|tas|nt|act)\b", text)
-    if m:
-        return m.group(1).upper()
+    found = {m.group(1).upper()
+             for m in re.finditer(r"\b(qld|nsw|vic|sa|wa|tas|nt|act)\b", text)}
     for name, abbr in _STATE_NAMES.items():
         if name in text:
-            return abbr
+            found.add(abbr)
+    if len(found) == 1:
+        return next(iter(found))
     return None
 
 

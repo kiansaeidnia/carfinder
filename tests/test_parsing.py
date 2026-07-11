@@ -42,6 +42,33 @@ class TestTextParsers:
         assert common.extract_location_au("Dealer: Cairns QLD") == "Cairns, QLD"
         assert common.extract_location_au("no location in here") is None
 
+    def test_location_skips_state_nav_lists(self):
+        # Run 7 artifact: page nav produced 'Queensland Western Australia, ACT'.
+        assert common.extract_location_au(
+            "Queensland Western Australia, ACT") is None
+        # ...but a real address later in the text still wins.
+        assert common.extract_location_au(
+            "Queensland Western Australia, ACT ... Dealer in Woree, QLD 4868"
+        ) == "Woree, QLD 4868"
+
+    def test_detail_page_location_prefers_structured_data(self):
+        from carfinder.sources.drive import Drive
+        html = """
+        <html><body>
+        <nav>Cars for Sale in Queensland Western Australia, ACT</nav>
+        <script id="__NEXT_DATA__" type="application/json">
+        {"props":{"vehicle":{"title":"2024 Subaru Solterra","price":59700,
+          "location":{"suburb":"Slacks Creek","state":"QLD","postcode":"4127"}}}}
+        </script></body></html>
+        """
+        loc = Drive()._location_from_detail(html)
+        assert "Slacks Creek" in loc and "4127" in loc
+
+    def test_detail_page_location_rejects_nav_only_pages(self):
+        from carfinder.sources.drive import Drive
+        html = "<html><body><nav>Queensland Western Australia, ACT</nav></body></html>"
+        assert Drive()._location_from_detail(html) is None
+
 
 # ----------------------------------------------------------------- JSON-LD
 

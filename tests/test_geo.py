@@ -62,3 +62,8 @@ class TestStateExtraction:
     def test_wa_not_extracted_from_random_words(self):
         # "wa" must be a standalone token, not part of "Warwick".
         assert geo.extract_state("Warwick Farm") is None
+
+    def test_multi_state_nav_text_is_ambiguous(self):
+        # Nav/footer state lists must not be mistaken for an address.
+        assert geo.extract_state("Queensland Western Australia, ACT") is None
+        assert geo.extract_state("NSW VIC QLD WA SA TAS") is None
