@@ -205,6 +205,37 @@ class TestDriveDiscovery:
         assert model_url is None
         assert make_url == "/cars-for-sale/search/qld/subaru/"
 
+    def test_digit_id_normalisation(self):
+        from carfinder.sources.drive import Drive
+        assert Drive._digit_id({"source_id": "g-134798"}) == "134798"
+        assert Drive._digit_id({"url": "https://x/cars-for-sale/car/134798/"}) == "134798"
+        assert Drive._digit_id({"source_id": "970256804"}) == "970256804"
+        assert Drive._digit_id({"source_id": "abc"}) is None
+
+    def test_walk_and_card_merge_into_one_listing(self):
+        from carfinder.http import FetchResult
+        from carfinder.sources.drive import Drive
+        html = """
+        <html><body>
+        <script id="__NEXT_DATA__" type="application/json">
+        {"props":{"items":[{"makeName":"Kia","modelName":"EV6","buildYear":2026,
+          "variant":"Air","price":72660,"id":"134798",
+          "location":{"suburb":"Woree","state":"QLD"}}]}}
+        </script>
+        <div><a href="/cars-for-sale/car/g-134798/">Sample image only</a>
+        <span>$72,660</span><span>582 km</span></div>
+        </body></html>
+        """
+        d = Drive()
+        raws = d.parse(FetchResult(url="https://www.drive.com.au/x", status=200,
+                                   text=html), None)
+        matches = [r for r in raws if r.get("price") == 72660]
+        assert len(matches) == 1                      # merged, not duplicated
+        merged = matches[0]
+        assert merged["title"] == "2026 Kia EV6 Air"  # walk title beats junk
+        assert merged["url"].endswith("/cars-for-sale/car/g-134798/")
+        assert "Woree" in merged["location"]
+
 
 # --------------------------------------------------------------- HTML cards
 

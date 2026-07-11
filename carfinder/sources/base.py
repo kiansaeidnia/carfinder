@@ -102,9 +102,21 @@ class Source(ABC):
                 break
 
         ok = error is None
-        return SourceResult(source=self.name, query_key=query.key, ok=ok,
-                            listings=list(listings.values()), error=error,
-                            url_used=url_used, raw_count=raw_count, engine=engine)
+        result = SourceResult(source=self.name, query_key=query.key, ok=ok,
+                              listings=list(listings.values()), error=error,
+                              url_used=url_used, raw_count=raw_count, engine=engine)
+        self.log_kept_samples(result)
+        return result
+
+    @staticmethod
+    def log_kept_samples(result: SourceResult) -> None:
+        """A few kept listings into the log — data-quality problems (junk
+        titles, missing URLs/locations) should be visible straight from CI."""
+        for listing in result.listings[:3]:
+            log.info("%s kept [%s]: %r | %s | %s | %s", result.source,
+                     result.query_key, listing.title[:70],
+                     listing.price_text or "no price",
+                     listing.location or "no location", listing.url or "NO URL")
 
     # ------------------------------------------------------------- helpers
 

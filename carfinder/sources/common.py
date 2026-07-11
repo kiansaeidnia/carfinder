@@ -87,6 +87,14 @@ def clean_text(text: str | None) -> str:
 _LOCATION_RE = re.compile(
     r"\b([A-Z][A-Za-z' ]{2,30}?),?\s+(QLD|NSW|VIC|SA|WA|TAS|NT|ACT)\b(?:[ ,]+(\d{4}))?")
 
+_JUNK_TITLE_RE = re.compile(
+    r"sample image|^\s*$|^(?:view|see|more)\b|^(?:photo|image|img)\b", re.IGNORECASE)
+
+
+def junk_title(text: str) -> bool:
+    """True for anchor text that is image-alt filler, not a vehicle title."""
+    return len(clean_text(text)) < 8 or bool(_JUNK_TITLE_RE.search(text))
+
 
 def extract_location_au(text: str | None) -> str | None:
     """'... Trinity Beach, QLD 4879 ...' -> 'Trinity Beach, QLD 4879'."""
@@ -392,8 +400,8 @@ def harvest_cards(soup: BeautifulSoup, href_pattern: str,
         if len(text) > 2000:  # walked up too far — use anchor text only
             text = clean_text(anchor.get_text(" "))
         title = clean_text(anchor.get_text(" "))
-        if len(title) < 8:
-            heading = card.find(re.compile("^h[1-6]$")) if hasattr(card, "find") else None
+        if junk_title(title) and hasattr(card, "find"):
+            heading = card.find(re.compile("^h[1-6]$"))
             if heading:
                 title = clean_text(heading.get_text(" "))
         price_m = re.search(r"\$[\d,]{4,}(?:\s*(?:drive\s*away|excl\.?\s*govt|egc))?",
