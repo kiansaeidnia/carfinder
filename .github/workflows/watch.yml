@@ -86,7 +86,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          title="🚗 New car listings near Cairns — $(date -u +%Y-%m-%d)"
+          title="🚗 New car listings near Cairns — $(TZ=Australia/Brisbane date +%Y-%m-%d)"
           # Assigning notifies the owner; fall back to an unassigned issue.
           gh issue create --title "$title" --body-file data/new-listings.md \
             --assignee "${{ github.repository_owner }}" \
