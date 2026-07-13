@@ -1,5 +1,5 @@
 {
- "date": "2026-07-13",
+ "date": "2026-07-14",
  "active": 10,
  "new": 0,
  "price_changes": 0,
@@ -129,8 +129,8 @@
    "source": "drive",
    "query": "kia-ev6",
    "ok": true,
-   "raw": 70,
-   "kept": 25,
+   "raw": 72,
+   "kept": 26,
    "engine": "playwright",
    "error": null,
    "url": "https://www.drive.com.au/cars-for-sale/search/all/all/kia/ev6/"
