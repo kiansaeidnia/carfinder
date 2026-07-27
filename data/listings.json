@@ -8,7 +8,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "location": null,
    "odometer_km": 566,
    "price": 61990,
@@ -37,7 +37,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "location": null,
    "odometer_km": 517,
    "price": 67990,
@@ -66,7 +66,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "location": null,
    "odometer_km": 567,
    "price": 54990,
@@ -95,7 +95,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "location": null,
    "odometer_km": 542,
    "price": 63990,
@@ -124,7 +124,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "location": null,
    "odometer_km": 582,
    "price": 72660,
@@ -153,7 +153,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "location": null,
    "odometer_km": 560,
    "price": 79660,
@@ -182,7 +182,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "location": null,
    "odometer_km": 522,
    "price": 87660,
@@ -211,7 +211,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "location": null,
    "odometer_km": 450,
    "price": 99660,
@@ -240,7 +240,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "location": "QLD",
    "odometer_km": 745,
    "price": 67990,
@@ -262,7 +262,7 @@
    "year": 2024
   },
   "drive:970258740": {
-   "active": true,
+   "active": false,
    "condition": "demo",
    "distance_km": null,
    "extra": {
@@ -286,6 +286,7 @@
    "state": "QLD",
    "title": "2025 Subaru Solterra",
    "url": "https://www.drive.com.au/cars-for-sale/car/970258740/",
+   "vanished_on": "2026-07-28",
    "variant": "E1-1 AWD. Wagon 5dr Reduction Gear 1sp 252kW [MY26]",
    "variant_match": false,
    "year": 2025
@@ -298,7 +299,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-07-28",
    "location": "QLD",
    "odometer_km": 13638,
    "price": 66989,
@@ -456,6 +457,14 @@
     "drive"
    ],
    "total_active": 11
+  },
+  {
+   "date": "2026-07-28",
+   "new": 0,
+   "sources_ok": [
+    "drive"
+   ],
+   "total_active": 10
   }
  ],
  "version": 1
