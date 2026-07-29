@@ -1,4 +1,4 @@
-# Car watch — 2026-07-29
+# Car watch — 2026-07-30
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
@@ -6,11 +6,10 @@ Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings wit
 
 _none_
 
-## All current matches: 10
+## All current matches: 9
 
-### Kia EV6 — 6
+### Kia EV6 — 5
 
-- 2023 Kia EV6 — $66,989, 13,638 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970292539/)
 - 2024 Kia EV6 — $67,990, 745 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/969928434/)
 - 2026 Kia EV6 — $72,660, 582 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-134798/)
 - 2026 Kia EV6 — $79,660, 560 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-134799/)
@@ -43,6 +42,6 @@ _none_
 | gumtree | kia-ev6 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | byd-sealion-7 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | subaru-solterra | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
-| drive | kia-ev6 | ✅ ok | 66 | 23 |
-| drive | byd-sealion-7 | ✅ ok | 38 | 2 |
-| drive | subaru-solterra | ✅ ok | 56 | 9 |
+| drive | kia-ev6 | ✅ ok | 64 | 22 |
+| drive | byd-sealion-7 | ✅ ok | 36 | 2 |
+| drive | subaru-solterra | ✅ ok | 54 | 9 |
