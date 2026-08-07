@@ -1,14 +1,10 @@
-# Car watch — 2026-08-07
+# Car watch — 2026-08-08
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
-## New since last run: 1
+## New since last run: 0
 
-- **2023 Kia EV6** — $38,990, 29,848 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970334521/)
-
-## Price changes
-
-- 🔻 **2025 BYD SEALION 7** — $50,590 → $50,390 ([drive](https://www.drive.com.au/cars-for-sale/car/970325722/))
+_none_
 
 ## All current matches: 12
 
