@@ -1,6 +1,6 @@
-New matches on 2026-08-06 within ~250 km of Cairns QLD 4870:
+New matches on 2026-08-07 within ~250 km of Cairns QLD 4870:
 
-- **2022 Kia EV6** — $60,989, 10,388 km, QLD (distance unknown) — [drive](https://www.drive.com.au/cars-for-sale/car/970332485/)
-- 🔻 price change: **2024 Kia EV6** $67,990 → $64,990 ([drive](https://www.drive.com.au/cars-for-sale/car/969928434/))
+- **2023 Kia EV6** — $38,990, 29,848 km, QLD (distance unknown) — [drive](https://www.drive.com.au/cars-for-sale/car/970334521/)
+- 🔻 price change: **2025 BYD SEALION 7** $50,590 → $50,390 ([drive](https://www.drive.com.au/cars-for-sale/car/970325722/))
 
 Full report: see `data/report.html` / `data/latest.csv`.
