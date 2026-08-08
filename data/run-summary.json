@@ -1,9 +1,9 @@
 {
- "date": "2026-08-08",
- "active": 12,
+ "date": "2026-08-09",
+ "active": 11,
  "new": 0,
  "price_changes": 0,
- "vanished": 0,
+ "vanished": 1,
  "sources": [
   {
    "source": "carsales",
@@ -129,8 +129,8 @@
    "source": "drive",
    "query": "kia-ev6",
    "ok": true,
-   "raw": 36,
-   "kept": 8,
+   "raw": 34,
+   "kept": 7,
    "engine": "playwright",
    "error": null,
    "url": "https://www.drive.com.au/cars-for-sale/search/qld/all/kia/ev6/"
@@ -139,7 +139,7 @@
    "source": "drive",
    "query": "byd-sealion-7",
    "ok": true,
-   "raw": 42,
+   "raw": 40,
    "kept": 3,
    "engine": "playwright",
    "error": null,
