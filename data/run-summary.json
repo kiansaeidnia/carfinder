@@ -1,8 +1,8 @@
 {
- "date": "2026-08-12",
+ "date": "2026-08-13",
  "active": 11,
  "new": 0,
- "price_changes": 0,
+ "price_changes": 1,
  "vanished": 0,
  "sources": [
   {
@@ -149,8 +149,8 @@
    "source": "drive",
    "query": "subaru-solterra",
    "ok": true,
-   "raw": 54,
-   "kept": 8,
+   "raw": 52,
+   "kept": 7,
    "engine": "playwright",
    "error": null,
    "url": "https://www.drive.com.au/cars-for-sale/search/qld/all/subaru/solterra/"
