@@ -1,9 +1,9 @@
 {
- "date": "2026-08-17",
- "active": 12,
+ "date": "2026-08-18",
+ "active": 11,
  "new": 0,
  "price_changes": 0,
- "vanished": 0,
+ "vanished": 1,
  "sources": [
   {
    "source": "carsales",
@@ -139,8 +139,8 @@
    "source": "drive",
    "query": "byd-sealion-7",
    "ok": true,
-   "raw": 46,
-   "kept": 4,
+   "raw": 44,
+   "kept": 3,
    "engine": "playwright",
    "error": null,
    "url": "https://www.drive.com.au/cars-for-sale/search/qld/all/byd/sealion-7/"
@@ -149,8 +149,8 @@
    "source": "drive",
    "query": "subaru-solterra",
    "ok": true,
-   "raw": 52,
-   "kept": 7,
+   "raw": 54,
+   "kept": 8,
    "engine": "playwright",
    "error": null,
    "url": "https://www.drive.com.au/cars-for-sale/search/qld/all/subaru/solterra/"
