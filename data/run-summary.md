@@ -1,4 +1,4 @@
-# Car watch — 2026-08-18
+# Car watch — 2026-08-19
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
