@@ -8,7 +8,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-08-22",
+   "last_seen": "2026-08-23",
    "location": null,
    "odometer_km": 566,
    "price": 61990,
@@ -37,7 +37,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-08-22",
+   "last_seen": "2026-08-23",
    "location": null,
    "odometer_km": 517,
    "price": 67990,
@@ -66,7 +66,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-08-22",
+   "last_seen": "2026-08-23",
    "location": null,
    "odometer_km": 567,
    "price": 54990,
@@ -95,7 +95,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-08-22",
+   "last_seen": "2026-08-23",
    "location": null,
    "odometer_km": 542,
    "price": 63990,
@@ -244,7 +244,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-08-22",
+   "last_seen": "2026-08-23",
    "location": "QLD",
    "odometer_km": 1245,
    "price": 57990,
@@ -341,7 +341,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-08-02",
-   "last_seen": "2026-08-22",
+   "last_seen": "2026-08-23",
    "location": "QLD",
    "odometer_km": 6849,
    "price": 49390,
@@ -386,7 +386,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-08-06",
-   "last_seen": "2026-08-22",
+   "last_seen": "2026-08-23",
    "location": "QLD",
    "odometer_km": 10388,
    "price": 60989,
@@ -469,14 +469,6 @@
   }
  },
  "runs": [
-  {
-   "date": "2026-07-24",
-   "new": 0,
-   "sources_ok": [
-    "drive"
-   ],
-   "total_active": 10
-  },
   {
    "date": "2026-07-25",
    "new": 0,
@@ -703,6 +695,14 @@
   },
   {
    "date": "2026-08-22",
+   "new": 0,
+   "sources_ok": [
+    "drive"
+   ],
+   "total_active": 7
+  },
+  {
+   "date": "2026-08-23",
    "new": 0,
    "sources_ok": [
     "drive"
