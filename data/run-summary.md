@@ -1,22 +1,21 @@
-# Car watch — 2026-08-26
+# Car watch — 2026-08-27
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
-## New since last run: 1
+## New since last run: 0
 
-- **2023 Kia EV6** — $45,488, 42,956 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970364938/)
+_none_
 
 ## Price changes
 
-- 🔺 **2024 Kia EV6** — $57,990 → $59,990 ([drive](https://www.drive.com.au/cars-for-sale/car/969928434/))
-- 🔻 **2022 Kia EV6** — $60,989 → $59,269 ([drive](https://www.drive.com.au/cars-for-sale/car/970332485/))
+- 🔻 **2022 Kia EV6** — $59,269 → $58,989 ([drive](https://www.drive.com.au/cars-for-sale/car/970332485/))
 
 ## All current matches: 8
 
 ### Kia EV6 — 3
 
 - 2023 Kia EV6 — $45,488, 42,956 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970364938/)
-- 2022 Kia EV6 — $59,269, 10,388 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970332485/)
+- 2022 Kia EV6 — $58,989, 10,388 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970332485/)
 - 2024 Kia EV6 — $59,990, 1,245 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/969928434/)
 
 ### BYD Sealion 7 — 3
