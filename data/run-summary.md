@@ -1,14 +1,10 @@
-# Car watch — 2026-08-27
+# Car watch — 2026-08-28
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
 ## New since last run: 0
 
 _none_
-
-## Price changes
-
-- 🔻 **2022 Kia EV6** — $59,269 → $58,989 ([drive](https://www.drive.com.au/cars-for-sale/car/970332485/))
 
 ## All current matches: 8
 
