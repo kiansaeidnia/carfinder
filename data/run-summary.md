@@ -1,12 +1,12 @@
-# Car watch — 2026-08-28
+# Car watch — 2026-08-29
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
-## New since last run: 0
+## New since last run: 1
 
-_none_
+- **2025 BYD SEALION 7** ⭐ — $51,990, 8,997 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970372153/)
 
-## All current matches: 8
+## All current matches: 9
 
 ### Kia EV6 — 3
 
@@ -14,9 +14,10 @@ _none_
 - 2022 Kia EV6 — $58,989, 10,388 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970332485/)
 - 2024 Kia EV6 — $59,990, 1,245 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/969928434/)
 
-### BYD Sealion 7 — 3
+### BYD Sealion 7 — 4
 
 - 2025 BYD SEALION 7 ⭐ — $48,890, 6,849 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970325722/)
+- 2025 BYD SEALION 7 ⭐ — $51,990, 8,997 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970372153/)
 - 2026 BYD SEALION 7 ⭐ — $54,990, 567 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-117154/)
 - 2026 BYD SEALION 7 — $63,990, 542 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-117155/)
 
@@ -42,5 +43,5 @@ _none_
 | gumtree | byd-sealion-7 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | subaru-solterra | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | drive | kia-ev6 | ✅ ok | 34 | 7 |
-| drive | byd-sealion-7 | ✅ ok | 40 | 3 |
+| drive | byd-sealion-7 | ✅ ok | 42 | 4 |
 | drive | subaru-solterra | ✅ ok | 54 | 8 |

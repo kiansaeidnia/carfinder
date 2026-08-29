@@ -1,7 +1,7 @@
 {
- "date": "2026-08-28",
- "active": 8,
- "new": 0,
+ "date": "2026-08-29",
+ "active": 9,
+ "new": 1,
  "price_changes": 0,
  "vanished": 0,
  "sources": [
@@ -139,8 +139,8 @@
    "source": "drive",
    "query": "byd-sealion-7",
    "ok": true,
-   "raw": 40,
-   "kept": 3,
+   "raw": 42,
+   "kept": 4,
    "engine": "playwright",
    "error": null,
    "url": "https://www.drive.com.au/cars-for-sale/search/qld/all/byd/sealion-7/"

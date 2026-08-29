@@ -8,7 +8,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-08-29",
    "location": null,
    "odometer_km": 566,
    "price": 61990,
@@ -37,7 +37,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-08-29",
    "location": null,
    "odometer_km": 517,
    "price": 67990,
@@ -66,7 +66,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-08-29",
    "location": null,
    "odometer_km": 567,
    "price": 54990,
@@ -95,7 +95,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-08-29",
    "location": null,
    "odometer_km": 542,
    "price": 63990,
@@ -244,7 +244,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-08-29",
    "location": "QLD",
    "odometer_km": 1245,
    "price": 59990,
@@ -345,7 +345,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-08-02",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-08-29",
    "location": "QLD",
    "odometer_km": 6849,
    "price": 48890,
@@ -394,7 +394,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-08-06",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-08-29",
    "location": "QLD",
    "odometer_km": 10388,
    "price": 58989,
@@ -491,7 +491,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-08-26",
-   "last_seen": "2026-08-28",
+   "last_seen": "2026-08-29",
    "location": "QLD",
    "odometer_km": 42956,
    "price": 45488,
@@ -511,17 +511,38 @@
    "variant": "CV GT-Line. Wagon 5dr Reduction Gear 1sp AC168kW [MY23]",
    "variant_match": false,
    "year": 2023
+  },
+  "drive:970372153": {
+   "active": true,
+   "condition": "used",
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-08-29",
+   "last_seen": "2026-08-29",
+   "location": "QLD",
+   "odometer_km": 8997,
+   "price": 51990,
+   "price_history": [
+    [
+     "2026-08-29",
+     51990
+    ]
+   ],
+   "price_text": "$51,990",
+   "query_key": "byd-sealion-7",
+   "source": "drive",
+   "source_id": "970372153",
+   "state": "QLD",
+   "title": "2025 BYD SEALION 7",
+   "url": "https://www.drive.com.au/cars-for-sale/car/970372153/",
+   "variant": "Premium Wagon 5dr Auto 1sp AC230kW [MY25]",
+   "variant_match": true,
+   "year": 2025
   }
  },
  "runs": [
-  {
-   "date": "2026-07-30",
-   "new": 0,
-   "sources_ok": [
-    "drive"
-   ],
-   "total_active": 9
-  },
   {
    "date": "2026-07-31",
    "new": 0,
@@ -753,6 +774,14 @@
     "drive"
    ],
    "total_active": 8
+  },
+  {
+   "date": "2026-08-29",
+   "new": 1,
+   "sources_ok": [
+    "drive"
+   ],
+   "total_active": 9
   }
  ],
  "version": 1
