@@ -8,7 +8,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-08-29",
+   "last_seen": "2026-08-30",
    "location": null,
    "odometer_km": 566,
    "price": 61990,
@@ -37,7 +37,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-08-29",
+   "last_seen": "2026-08-30",
    "location": null,
    "odometer_km": 517,
    "price": 67990,
@@ -66,7 +66,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-08-29",
+   "last_seen": "2026-08-30",
    "location": null,
    "odometer_km": 567,
    "price": 54990,
@@ -95,7 +95,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-08-29",
+   "last_seen": "2026-08-30",
    "location": null,
    "odometer_km": 542,
    "price": 63990,
@@ -244,7 +244,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-08-29",
+   "last_seen": "2026-08-30",
    "location": "QLD",
    "odometer_km": 1245,
    "price": 59990,
@@ -345,7 +345,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-08-02",
-   "last_seen": "2026-08-29",
+   "last_seen": "2026-08-30",
    "location": "QLD",
    "odometer_km": 6849,
    "price": 48890,
@@ -394,7 +394,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-08-06",
-   "last_seen": "2026-08-29",
+   "last_seen": "2026-08-30",
    "location": "QLD",
    "odometer_km": 10388,
    "price": 58989,
@@ -491,7 +491,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-08-26",
-   "last_seen": "2026-08-29",
+   "last_seen": "2026-08-30",
    "location": "QLD",
    "odometer_km": 42956,
    "price": 45488,
@@ -520,7 +520,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-08-29",
-   "last_seen": "2026-08-29",
+   "last_seen": "2026-08-30",
    "location": "QLD",
    "odometer_km": 8997,
    "price": 51990,
@@ -543,14 +543,6 @@
   }
  },
  "runs": [
-  {
-   "date": "2026-07-31",
-   "new": 0,
-   "sources_ok": [
-    "drive"
-   ],
-   "total_active": 9
-  },
   {
    "date": "2026-08-01",
    "new": 0,
@@ -778,6 +770,14 @@
   {
    "date": "2026-08-29",
    "new": 1,
+   "sources_ok": [
+    "drive"
+   ],
+   "total_active": 9
+  },
+  {
+   "date": "2026-08-30",
+   "new": 0,
    "sources_ok": [
     "drive"
    ],
