@@ -1,9 +1,9 @@
 {
- "date": "2026-09-02",
+ "date": "2026-09-03",
  "active": 12,
- "new": 5,
- "price_changes": 0,
- "vanished": 1,
+ "new": 0,
+ "price_changes": 1,
+ "vanished": 0,
  "sources": [
   {
    "source": "carsales",

@@ -1,27 +1,27 @@
-# Car watch — 2026-09-02
+# Car watch — 2026-09-03
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
-## New since last run: 5
+## New since last run: 0
 
-- **2024 Subaru Solterra** — $43,990, 29,187 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970376537/)
-- **2025 BYD SEALION 7** ⭐ — $47,990, 2,029 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970376617/)
-- **2025 BYD SEALION 7** ⭐ — $49,990, 3,120 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970376452/)
-- **2025 BYD SEALION 7** ⭐ — $49,990, 3,161 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970376451/)
-- **2025 BYD SEALION 7** ⭐ — $51,990, 3,128 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970376453/)
+_none_
+
+## Price changes
+
+- 🔻 **2022 Kia EV6** — $58,989 → $58,489 ([drive](https://www.drive.com.au/cars-for-sale/car/970332485/))
 
 ## All current matches: 12
 
 ### Kia EV6 — 2
 
-- 2022 Kia EV6 — $58,989, 10,388 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970332485/)
+- 2022 Kia EV6 — $58,489, 10,388 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970332485/)
 - 2024 Kia EV6 — $59,990, 1,245 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/969928434/)
 
 ### BYD Sealion 7 — 7
 
 - 2025 BYD SEALION 7 ⭐ — $47,990, 2,029 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970376617/)
-- 2025 BYD SEALION 7 ⭐ — $49,990, 3,120 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970376452/)
 - 2025 BYD SEALION 7 ⭐ — $49,990, 3,161 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970376451/)
+- 2025 BYD SEALION 7 ⭐ — $49,990, 3,120 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970376452/)
 - 2025 BYD SEALION 7 ⭐ — $51,990, 8,997 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970372153/)
 - 2025 BYD SEALION 7 ⭐ — $51,990, 3,128 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970376453/)
 - 2026 BYD SEALION 7 ⭐ — $54,990, 567 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-117154/)
