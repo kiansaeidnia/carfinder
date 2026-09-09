@@ -1,23 +1,19 @@
-# Car watch — 2026-09-09
+# Car watch — 2026-09-10
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
-## New since last run: 0
+## New since last run: 1
 
-_none_
+- **2025 BYD SEALION 7** ⭐ — $52,990, 3,072 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970389947/)
 
-## Price changes
-
-- 🔻 **2024 Kia EV6** — $58,990 → $56,990 ([drive](https://www.drive.com.au/cars-for-sale/car/969928434/))
-
-## All current matches: 14
+## All current matches: 15
 
 ### Kia EV6 — 2
 
 - 2024 Kia EV6 — $56,990, 1,245 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/969928434/)
 - 2022 Kia EV6 — $58,489, 10,388 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970332485/)
 
-### BYD Sealion 7 — 9
+### BYD Sealion 7 — 10
 
 - 2025 BYD SEALION 7 ⭐ — $47,990, 2,029 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970376617/)
 - 2025 BYD SEALION 7 ⭐ — $49,990, 3,161 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970376451/)
@@ -26,6 +22,7 @@ _none_
 - 2025 BYD SEALION 7 ⭐ — $49,990, 4,542 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970385930/)
 - 2025 BYD SEALION 7 ⭐ — $51,990, 3,128 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970376453/)
 - 2025 BYD SEALION 7 ⭐ — $51,990, 3,687 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970385926/)
+- 2025 BYD SEALION 7 ⭐ — $52,990, 3,072 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970389947/)
 - 2026 BYD SEALION 7 ⭐ — $54,990, 567 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-117154/)
 - 2026 BYD SEALION 7 — $63,990, 542 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-117155/)
 
@@ -52,5 +49,5 @@ _none_
 | gumtree | byd-sealion-7 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | subaru-solterra | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | drive | kia-ev6 | ✅ ok | 34 | 7 |
-| drive | byd-sealion-7 | ✅ ok | 56 | 11 |
+| drive | byd-sealion-7 | ✅ ok | 58 | 12 |
 | drive | subaru-solterra | ✅ ok | 56 | 9 |
