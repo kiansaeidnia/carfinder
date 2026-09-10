@@ -1,10 +1,15 @@
-# Car watch — 2026-09-10
+# Car watch — 2026-09-11
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
-## New since last run: 1
+## New since last run: 0
 
-- **2025 BYD SEALION 7** ⭐ — $52,990, 3,072 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970389947/)
+_none_
+
+## Price changes
+
+- 🔻 **2025 BYD SEALION 7** — $47,990 → $47,490 ([drive](https://www.drive.com.au/cars-for-sale/car/970376617/))
+- 🔻 **2024 Subaru Solterra** — $42,990 → $42,490 ([drive](https://www.drive.com.au/cars-for-sale/car/970376537/))
 
 ## All current matches: 15
 
@@ -15,7 +20,7 @@ Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings wit
 
 ### BYD Sealion 7 — 10
 
-- 2025 BYD SEALION 7 ⭐ — $47,990, 2,029 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970376617/)
+- 2025 BYD SEALION 7 ⭐ — $47,490, 2,029 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970376617/)
 - 2025 BYD SEALION 7 ⭐ — $49,990, 3,161 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970376451/)
 - 2025 BYD SEALION 7 ⭐ — $49,990, 3,278 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970379857/)
 - 2025 BYD SEALION 7 ⭐ — $49,990, 3,145 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970382258/)
@@ -28,7 +33,7 @@ Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings wit
 
 ### Subaru Solterra — 3
 
-- 2024 Subaru Solterra — $42,990, 29,187 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970376537/)
+- 2024 Subaru Solterra — $42,490, 29,187 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970376537/)
 - 2026 Subaru Solterra — $61,990, 566 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-107999/)
 - 2026 Subaru Solterra — $67,990, 517 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-108000/)
 
@@ -49,5 +54,5 @@ Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings wit
 | gumtree | byd-sealion-7 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | subaru-solterra | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | drive | kia-ev6 | ✅ ok | 34 | 7 |
-| drive | byd-sealion-7 | ✅ ok | 58 | 12 |
+| drive | byd-sealion-7 | ✅ ok | 56 | 12 |
 | drive | subaru-solterra | ✅ ok | 56 | 9 |

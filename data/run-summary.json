@@ -1,8 +1,8 @@
 {
- "date": "2026-09-10",
+ "date": "2026-09-11",
  "active": 15,
- "new": 1,
- "price_changes": 0,
+ "new": 0,
+ "price_changes": 2,
  "vanished": 0,
  "sources": [
   {
@@ -139,7 +139,7 @@
    "source": "drive",
    "query": "byd-sealion-7",
    "ok": true,
-   "raw": 58,
+   "raw": 56,
    "kept": 12,
    "engine": "playwright",
    "error": null,
