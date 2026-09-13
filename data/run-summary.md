@@ -1,4 +1,4 @@
-# Car watch — 2026-09-13
+# Car watch — 2026-09-14
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
@@ -47,6 +47,6 @@ _none_
 | gumtree | kia-ev6 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | byd-sealion-7 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | subaru-solterra | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
-| drive | kia-ev6 | ✅ ok | 76 | 28 |
-| drive | byd-sealion-7 | ✅ ok | 58 | 12 |
+| drive | kia-ev6 | ✅ ok | 32 | 6 |
+| drive | byd-sealion-7 | ✅ ok | 54 | 12 |
 | drive | subaru-solterra | ✅ ok | 56 | 9 |
