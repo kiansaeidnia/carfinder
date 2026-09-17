@@ -8,7 +8,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-18",
    "location": null,
    "odometer_km": 566,
    "price": 61990,
@@ -37,7 +37,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-18",
    "location": null,
    "odometer_km": 517,
    "price": 67990,
@@ -66,7 +66,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-18",
    "location": null,
    "odometer_km": 567,
    "price": 54990,
@@ -95,7 +95,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-18",
    "location": null,
    "odometer_km": 542,
    "price": 63990,
@@ -244,7 +244,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-18",
    "location": "QLD",
    "odometer_km": 1245,
    "price": 59990,
@@ -569,7 +569,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-18",
    "location": "QLD",
    "odometer_km": 3161,
    "price": 49490,
@@ -625,7 +625,7 @@
    "year": 2025
   },
   "drive:970376453": {
-   "active": true,
+   "active": false,
    "condition": "used",
    "distance_km": null,
    "extra": {
@@ -649,6 +649,7 @@
    "state": "QLD",
    "title": "2025 BYD SEALION 7",
    "url": "https://www.drive.com.au/cars-for-sale/car/970376453/",
+   "vanished_on": "2026-09-18",
    "variant": "Premium Wagon 5dr Auto 1sp AC230kW [MY25]",
    "variant_match": true,
    "year": 2025
@@ -661,7 +662,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-18",
    "location": "QLD",
    "odometer_km": 29187,
    "price": 41990,
@@ -702,7 +703,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-18",
    "location": "QLD",
    "odometer_km": 2029,
    "price": 47490,
@@ -735,7 +736,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-04",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-18",
    "location": "QLD",
    "odometer_km": 3278,
    "price": 49990,
@@ -764,7 +765,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-05",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-18",
    "location": "QLD",
    "odometer_km": 3145,
    "price": 49990,
@@ -793,7 +794,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-08",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-18",
    "location": "QLD",
    "odometer_km": 3687,
    "price": 51990,
@@ -822,7 +823,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-08",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-18",
    "location": "QLD",
    "odometer_km": 4542,
    "price": 49990,
@@ -851,7 +852,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-10",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-18",
    "location": "QLD",
    "odometer_km": 3072,
    "price": 52990,
@@ -880,7 +881,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-17",
-   "last_seen": "2026-09-17",
+   "last_seen": "2026-09-18",
    "location": "QLD",
    "odometer_km": 4023,
    "price": 55990,
@@ -903,14 +904,6 @@
   }
  },
  "runs": [
-  {
-   "date": "2026-08-19",
-   "new": 0,
-   "sources_ok": [
-    "drive"
-   ],
-   "total_active": 11
-  },
   {
    "date": "2026-08-20",
    "new": 0,
@@ -1142,6 +1135,14 @@
     "drive"
    ],
    "total_active": 15
+  },
+  {
+   "date": "2026-09-18",
+   "new": 0,
+   "sources_ok": [
+    "drive"
+   ],
+   "total_active": 14
   }
  ],
  "version": 1
