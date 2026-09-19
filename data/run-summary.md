@@ -1,14 +1,10 @@
-# Car watch — 2026-09-19
+# Car watch — 2026-09-20
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
 ## New since last run: 0
 
 _none_
-
-## Price changes
-
-- 🔻 **2024 Subaru Solterra** — $41,990 → $40,990 ([drive](https://www.drive.com.au/cars-for-sale/car/970376537/))
 
 ## All current matches: 14
 
