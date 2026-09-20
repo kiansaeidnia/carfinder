@@ -1,12 +1,12 @@
-# Car watch — 2026-09-20
+# Car watch — 2026-09-21
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
-## New since last run: 0
+## New since last run: 1
 
-_none_
+- **2025 Subaru Solterra** — $63,490, 13 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970353367/)
 
-## All current matches: 14
+## All current matches: 15
 
 ### Kia EV6 — 1
 
@@ -25,10 +25,11 @@ _none_
 - 2025 BYD SEALION 7 — $55,990, 4,023 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970400100/)
 - 2026 BYD SEALION 7 — $63,990, 542 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-117155/)
 
-### Subaru Solterra — 3
+### Subaru Solterra — 4
 
 - 2024 Subaru Solterra — $40,990, 29,187 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970376537/)
 - 2026 Subaru Solterra — $61,990, 566 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-107999/)
+- 2025 Subaru Solterra — $63,490, 13 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970353367/)
 - 2026 Subaru Solterra — $67,990, 517 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-108000/)
 
 ## Source status
@@ -48,5 +49,5 @@ _none_
 | gumtree | byd-sealion-7 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | subaru-solterra | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | drive | kia-ev6 | ✅ ok | 32 | 6 |
-| drive | byd-sealion-7 | ✅ ok | 58 | 13 |
+| drive | byd-sealion-7 | ✅ ok | 94 | 32 |
 | drive | subaru-solterra | ✅ ok | 56 | 9 |
