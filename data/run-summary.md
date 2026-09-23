@@ -1,4 +1,4 @@
-# Car watch — 2026-09-23
+# Car watch — 2026-09-24
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
@@ -6,22 +6,25 @@ Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings wit
 
 _none_
 
-## All current matches: 13
+## Price changes
+
+- 🔻 **2025 BYD SEALION 7** — $55,990 → $55,490 ([drive](https://www.drive.com.au/cars-for-sale/car/970400100/))
+
+## All current matches: 12
 
 ### Kia EV6 — 1
 
 - 2024 Kia EV6 — $59,990, 1,245 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/969928434/)
 
-### BYD Sealion 7 — 9
+### BYD Sealion 7 — 8
 
 - 2025 BYD SEALION 7 ⭐ — $47,490, 2,029 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970376617/)
 - 2025 BYD SEALION 7 ⭐ — $49,990, 3,278 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970379857/)
 - 2025 BYD SEALION 7 ⭐ — $49,990, 3,145 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970382258/)
-- 2025 BYD SEALION 7 ⭐ — $49,990, 4,542 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970385930/)
-- 2025 BYD SEALION 7 ⭐ — $51,990, 3,687 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970385926/)
+- 2025 BYD SEALION 7 ⭐ — $49,990, 4,670 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970385930/)
 - 2025 BYD SEALION 7 ⭐ — $52,990, 3,072 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970389947/)
 - 2026 BYD SEALION 7 ⭐ — $54,990, 567 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-117154/)
-- 2025 BYD SEALION 7 — $55,990, 4,023 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970400100/)
+- 2025 BYD SEALION 7 — $55,490, 4,023 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970400100/)
 - 2026 BYD SEALION 7 — $63,990, 542 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-117155/)
 
 ### Subaru Solterra — 3
@@ -46,6 +49,6 @@ _none_
 | gumtree | kia-ev6 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | byd-sealion-7 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | subaru-solterra | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
-| drive | kia-ev6 | ✅ ok | 32 | 6 |
-| drive | byd-sealion-7 | ✅ ok | 56 | 12 |
-| drive | subaru-solterra | ✅ ok | 56 | 9 |
+| drive | kia-ev6 | ✅ ok | 92 | 26 |
+| drive | byd-sealion-7 | ✅ ok | 70 | 10 |
+| drive | subaru-solterra | ✅ ok | 72 | 9 |
