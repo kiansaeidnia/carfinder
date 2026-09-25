@@ -1,9 +1,9 @@
 {
- "date": "2026-09-25",
- "active": 12,
- "new": 0,
- "price_changes": 0,
- "vanished": 0,
+ "date": "2026-09-26",
+ "active": 9,
+ "new": 2,
+ "price_changes": 3,
+ "vanished": 5,
  "sources": [
   {
    "source": "carsales",
@@ -128,32 +128,32 @@
   {
    "source": "drive",
    "query": "kia-ev6",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "engine": "requests",
-   "error": "all search/hub URLs blocked or failed (last status 403)",
-   "url": null
+   "ok": true,
+   "raw": 100,
+   "kept": 30,
+   "engine": "playwright",
+   "error": null,
+   "url": "https://www.drive.com.au/cars-for-sale/search/all/all/kia/ev6/"
   },
   {
    "source": "drive",
    "query": "byd-sealion-7",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "engine": "requests",
-   "error": "all search/hub URLs blocked or failed (last status 403)",
-   "url": null
+   "ok": true,
+   "raw": 72,
+   "kept": 10,
+   "engine": "playwright",
+   "error": null,
+   "url": "https://www.drive.com.au/cars-for-sale/search/qld/all/byd/sealion-7/"
   },
   {
    "source": "drive",
    "query": "subaru-solterra",
-   "ok": false,
-   "raw": 0,
-   "kept": 0,
-   "engine": "requests",
-   "error": "all search/hub URLs blocked or failed (last status 403)",
-   "url": null
+   "ok": true,
+   "raw": 72,
+   "kept": 9,
+   "engine": "playwright",
+   "error": null,
+   "url": "https://www.drive.com.au/cars-for-sale/search/qld/all/subaru/solterra/"
   }
  ]
 }
