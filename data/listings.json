@@ -31,14 +31,14 @@
    "year": 2026
   },
   "drive:108000": {
-   "active": false,
+   "active": true,
    "condition": null,
    "distance_km": null,
    "extra": {
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-09-24",
+   "last_seen": "2026-09-28",
    "location": null,
    "odometer_km": 517,
    "price": 67990,
@@ -55,7 +55,6 @@
    "state": null,
    "title": "2026 Subaru Solterra",
    "url": "https://www.drive.com.au/cars-for-sale/car/g-108000/",
-   "vanished_on": "2026-09-26",
    "variant": "E1-1 AWD Touring. Wagon 5dr Reduction Gear 1sp 252kW [MY26]",
    "variant_match": false,
    "year": 2026
@@ -91,14 +90,14 @@
    "year": 2026
   },
   "drive:117155": {
-   "active": false,
+   "active": true,
    "condition": null,
    "distance_km": null,
    "extra": {
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-09-24",
+   "last_seen": "2026-09-28",
    "location": null,
    "odometer_km": 542,
    "price": 63990,
@@ -115,7 +114,6 @@
    "state": null,
    "title": "2026 BYD SEALION 7",
    "url": "https://www.drive.com.au/cars-for-sale/car/g-117155/",
-   "vanished_on": "2026-09-26",
    "variant": "Performance Wagon 5dr Auto 1sp AWD 390kW [MY25]",
    "variant_match": false,
    "year": 2026
@@ -248,7 +246,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-09-27",
+   "last_seen": "2026-09-28",
    "location": "QLD",
    "odometer_km": 1245,
    "price": 57990,
@@ -328,31 +326,34 @@
    "year": 2025
   },
   "drive:970258740": {
-   "active": false,
+   "active": true,
    "condition": "demo",
    "distance_km": null,
    "extra": {
     "unknown_distance": true
    },
    "first_seen": "2026-07-27",
-   "last_seen": "2026-07-27",
+   "last_seen": "2026-09-28",
    "location": "QLD",
-   "odometer_km": 2903,
-   "price": 67960,
+   "odometer_km": 7309,
+   "price": 64777,
    "price_history": [
     [
      "2026-07-27",
      67960
+    ],
+    [
+     "2026-09-28",
+     64777
     ]
    ],
-   "price_text": "$67,960",
+   "price_text": "$64,777",
    "query_key": "subaru-solterra",
    "source": "drive",
    "source_id": "970258740",
    "state": "QLD",
    "title": "2025 Subaru Solterra",
    "url": "https://www.drive.com.au/cars-for-sale/car/970258740/",
-   "vanished_on": "2026-07-28",
    "variant": "E1-1 AWD. Wagon 5dr Reduction Gear 1sp 252kW [MY26]",
    "variant_match": false,
    "year": 2025
@@ -731,7 +732,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-27",
+   "last_seen": "2026-09-28",
    "location": "QLD",
    "odometer_km": 29187,
    "price": 40990,
@@ -776,7 +777,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-27",
+   "last_seen": "2026-09-28",
    "location": "QLD",
    "odometer_km": 4381,
    "price": 49990,
@@ -813,7 +814,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-04",
-   "last_seen": "2026-09-27",
+   "last_seen": "2026-09-28",
    "location": "QLD",
    "odometer_km": 3278,
    "price": 49990,
@@ -902,7 +903,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-08",
-   "last_seen": "2026-09-27",
+   "last_seen": "2026-09-28",
    "location": "QLD",
    "odometer_km": 4670,
    "price": 49990,
@@ -931,7 +932,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-10",
-   "last_seen": "2026-09-27",
+   "last_seen": "2026-09-28",
    "location": "QLD",
    "odometer_km": 3072,
    "price": 51990,
@@ -998,7 +999,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-26",
-   "last_seen": "2026-09-27",
+   "last_seen": "2026-09-28",
    "location": "QLD",
    "odometer_km": 2600,
    "price": 51990,
@@ -1021,14 +1022,6 @@
   }
  },
  "runs": [
-  {
-   "date": "2026-08-29",
-   "new": 1,
-   "sources_ok": [
-    "drive"
-   ],
-   "total_active": 9
-  },
   {
    "date": "2026-08-30",
    "new": 0,
@@ -1258,6 +1251,14 @@
     "drive"
    ],
    "total_active": 7
+  },
+  {
+   "date": "2026-09-28",
+   "new": 0,
+   "sources_ok": [
+    "drive"
+   ],
+   "total_active": 10
   }
  ],
  "version": 1
