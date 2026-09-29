@@ -1,14 +1,14 @@
 {
  "listings": {
   "drive:107999": {
-   "active": false,
+   "active": true,
    "condition": null,
    "distance_km": null,
    "extra": {
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-09-24",
+   "last_seen": "2026-09-29",
    "location": null,
    "odometer_km": 566,
    "price": 61990,
@@ -25,7 +25,6 @@
    "state": null,
    "title": "2026 Subaru Solterra",
    "url": "https://www.drive.com.au/cars-for-sale/car/g-107999/",
-   "vanished_on": "2026-09-26",
    "variant": "E1-1 AWD. Wagon 5dr Reduction Gear 1sp 252kW [MY26]",
    "variant_match": false,
    "year": 2026
@@ -38,7 +37,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-09-28",
+   "last_seen": "2026-09-29",
    "location": null,
    "odometer_km": 517,
    "price": 67990,
@@ -90,7 +89,7 @@
    "year": 2026
   },
   "drive:117155": {
-   "active": true,
+   "active": false,
    "condition": null,
    "distance_km": null,
    "extra": {
@@ -114,6 +113,7 @@
    "state": null,
    "title": "2026 BYD SEALION 7",
    "url": "https://www.drive.com.au/cars-for-sale/car/g-117155/",
+   "vanished_on": "2026-09-29",
    "variant": "Performance Wagon 5dr Auto 1sp AWD 390kW [MY25]",
    "variant_match": false,
    "year": 2026
@@ -239,7 +239,7 @@
    "year": 2026
   },
   "drive:969928434": {
-   "active": true,
+   "active": false,
    "condition": "demo",
    "distance_km": null,
    "extra": {
@@ -291,6 +291,7 @@
    "state": "QLD",
    "title": "2024 Kia EV6",
    "url": "https://www.drive.com.au/cars-for-sale/car/969928434/",
+   "vanished_on": "2026-09-29",
    "variant": "CV Air. Wagon 5dr Reduction Gear 1sp AC168kW [MY24]",
    "variant_match": false,
    "year": 2024
@@ -326,7 +327,7 @@
    "year": 2025
   },
   "drive:970258740": {
-   "active": true,
+   "active": false,
    "condition": "demo",
    "distance_km": null,
    "extra": {
@@ -354,6 +355,7 @@
    "state": "QLD",
    "title": "2025 Subaru Solterra",
    "url": "https://www.drive.com.au/cars-for-sale/car/970258740/",
+   "vanished_on": "2026-09-29",
    "variant": "E1-1 AWD. Wagon 5dr Reduction Gear 1sp 252kW [MY26]",
    "variant_match": false,
    "year": 2025
@@ -732,7 +734,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-02",
-   "last_seen": "2026-09-28",
+   "last_seen": "2026-09-29",
    "location": "QLD",
    "odometer_km": 29187,
    "price": 40990,
@@ -770,7 +772,7 @@
    "year": 2024
   },
   "drive:970376617": {
-   "active": true,
+   "active": false,
    "condition": "used",
    "distance_km": null,
    "extra": {
@@ -802,12 +804,13 @@
    "state": "QLD",
    "title": "2025 BYD SEALION 7",
    "url": "https://www.drive.com.au/cars-for-sale/car/970376617/",
+   "vanished_on": "2026-09-29",
    "variant": "Premium Wagon 5dr Auto 1sp AC230kW [MY25]",
    "variant_match": true,
    "year": 2025
   },
   "drive:970379857": {
-   "active": true,
+   "active": false,
    "condition": "used",
    "distance_km": null,
    "extra": {
@@ -831,6 +834,7 @@
    "state": "QLD",
    "title": "2025 BYD SEALION 7",
    "url": "https://www.drive.com.au/cars-for-sale/car/970379857/",
+   "vanished_on": "2026-09-29",
    "variant": "Premium Wagon 5dr Auto 1sp AC230kW [MY25]",
    "variant_match": true,
    "year": 2025
@@ -896,7 +900,7 @@
    "year": 2025
   },
   "drive:970385930": {
-   "active": true,
+   "active": false,
    "condition": "used",
    "distance_km": null,
    "extra": {
@@ -920,12 +924,13 @@
    "state": "QLD",
    "title": "2025 BYD SEALION 7",
    "url": "https://www.drive.com.au/cars-for-sale/car/970385930/",
+   "vanished_on": "2026-09-29",
    "variant": "Premium Wagon 5dr Auto 1sp AC230kW [MY25]",
    "variant_match": true,
    "year": 2025
   },
   "drive:970389947": {
-   "active": true,
+   "active": false,
    "condition": "used",
    "distance_km": null,
    "extra": {
@@ -953,6 +958,7 @@
    "state": "QLD",
    "title": "2025 BYD SEALION 7",
    "url": "https://www.drive.com.au/cars-for-sale/car/970389947/",
+   "vanished_on": "2026-09-29",
    "variant": "Premium Wagon 5dr Auto 1sp AC230kW [MY25]",
    "variant_match": true,
    "year": 2025
@@ -992,7 +998,7 @@
    "year": 2025
   },
   "drive:970410964": {
-   "active": true,
+   "active": false,
    "condition": "used",
    "distance_km": null,
    "extra": {
@@ -1016,20 +1022,13 @@
    "state": "QLD",
    "title": "2025 BYD SEALION 7",
    "url": "https://www.drive.com.au/cars-for-sale/car/970410964/",
+   "vanished_on": "2026-09-29",
    "variant": "Premium Wagon 5dr Auto 1sp AC230kW [MY25]",
    "variant_match": true,
    "year": 2025
   }
  },
  "runs": [
-  {
-   "date": "2026-08-30",
-   "new": 0,
-   "sources_ok": [
-    "drive"
-   ],
-   "total_active": 9
-  },
   {
    "date": "2026-08-31",
    "new": 0,
@@ -1259,6 +1258,14 @@
     "drive"
    ],
    "total_active": 10
+  },
+  {
+   "date": "2026-09-29",
+   "new": 0,
+   "sources_ok": [
+    "drive"
+   ],
+   "total_active": 3
   }
  ],
  "version": 1
