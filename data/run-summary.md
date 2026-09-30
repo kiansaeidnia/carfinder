@@ -1,14 +1,10 @@
-# Car watch — 2026-09-30
+# Car watch — 2026-10-01
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
 ## New since last run: 0
 
 _none_
-
-## Price changes
-
-- 🔻 **2024 Subaru Solterra** — $40,990 → $39,990 ([drive](https://www.drive.com.au/cars-for-sale/car/970376537/))
 
 ## All current matches: 11
 
@@ -48,6 +44,6 @@ _none_
 | gumtree | kia-ev6 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | byd-sealion-7 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | subaru-solterra | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
-| drive | kia-ev6 | ✅ ok | 96 | 28 |
-| drive | byd-sealion-7 | ✅ ok | 72 | 9 |
+| drive | kia-ev6 | ✅ ok | 92 | 26 |
+| drive | byd-sealion-7 | ✅ ok | 66 | 7 |
 | drive | subaru-solterra | ✅ ok | 72 | 9 |
