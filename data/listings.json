@@ -8,7 +8,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "location": null,
    "odometer_km": 566,
    "price": 61990,
@@ -37,7 +37,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "location": null,
    "odometer_km": 517,
    "price": 67990,
@@ -66,7 +66,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "location": null,
    "odometer_km": 567,
    "price": 54990,
@@ -95,7 +95,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "location": null,
    "odometer_km": 542,
    "price": 63990,
@@ -244,7 +244,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "location": "QLD",
    "odometer_km": 1245,
    "price": 57990,
@@ -509,6 +509,64 @@
    "variant_match": false,
    "year": 2023
   },
+  "drive:970347040": {
+   "active": true,
+   "condition": null,
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-10-02",
+   "last_seen": "2026-10-02",
+   "location": "QLD",
+   "odometer_km": 9,
+   "price": 82600,
+   "price_history": [
+    [
+     "2026-10-02",
+     82600
+    ]
+   ],
+   "price_text": "$82,600",
+   "query_key": "kia-ev6",
+   "source": "drive",
+   "source_id": "970347040",
+   "state": "QLD",
+   "title": "2026 Kia EV6",
+   "url": "https://www.drive.com.au/cars-for-sale/car/970347040/",
+   "variant": "CV PE GT-Line. Wagon 5dr Reduction Gear 1sp AC168kW [MY26]",
+   "variant_match": false,
+   "year": 2026
+  },
+  "drive:970347096": {
+   "active": true,
+   "condition": null,
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-10-02",
+   "last_seen": "2026-10-02",
+   "location": "QLD",
+   "odometer_km": 28,
+   "price": 74400,
+   "price_history": [
+    [
+     "2026-10-02",
+     74400
+    ]
+   ],
+   "price_text": "$74,400",
+   "query_key": "kia-ev6",
+   "source": "drive",
+   "source_id": "970347096",
+   "state": "QLD",
+   "title": "2025 Kia EV6",
+   "url": "https://www.drive.com.au/cars-for-sale/car/970347096/",
+   "variant": "CV PE Air. Wagon 5dr Reduction Gear 1sp AC168kW [MY26]",
+   "variant_match": false,
+   "year": 2025
+  },
   "drive:970351003": {
    "active": false,
    "condition": "used",
@@ -731,7 +789,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-02",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "location": "QLD",
    "odometer_km": 29187,
    "price": 39990,
@@ -780,7 +838,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-02",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "location": "QLD",
    "odometer_km": 4381,
    "price": 49990,
@@ -817,7 +875,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-04",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "location": "QLD",
    "odometer_km": 3278,
    "price": 49990,
@@ -906,7 +964,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-08",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "location": "QLD",
    "odometer_km": 4670,
    "price": 49990,
@@ -935,10 +993,10 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-10",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "location": "QLD",
    "odometer_km": 3072,
-   "price": 51990,
+   "price": 49990,
    "price_history": [
     [
      "2026-09-10",
@@ -947,9 +1005,13 @@
     [
      "2026-09-26",
      51990
+    ],
+    [
+     "2026-10-02",
+     49990
     ]
    ],
-   "price_text": "$51,990",
+   "price_text": "$49,990",
    "query_key": "byd-sealion-7",
    "source": "drive",
    "source_id": "970389947",
@@ -1002,7 +1064,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-26",
-   "last_seen": "2026-10-01",
+   "last_seen": "2026-10-02",
    "location": "QLD",
    "odometer_km": 2600,
    "price": 51990,
@@ -1022,17 +1084,67 @@
    "variant": "Premium Wagon 5dr Auto 1sp AC230kW [MY25]",
    "variant_match": true,
    "year": 2025
+  },
+  "drive:970413315": {
+   "active": true,
+   "condition": "used",
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-10-02",
+   "last_seen": "2026-10-02",
+   "location": "QLD",
+   "odometer_km": 59306,
+   "price": 41990,
+   "price_history": [
+    [
+     "2026-10-02",
+     41990
+    ]
+   ],
+   "price_text": "$41,990",
+   "query_key": "kia-ev6",
+   "source": "drive",
+   "source_id": "970413315",
+   "state": "QLD",
+   "title": "2024 Kia EV6",
+   "url": "https://www.drive.com.au/cars-for-sale/car/970413315/",
+   "variant": "CV Air. Wagon 5dr Reduction Gear 1sp AC168kW [MY24]",
+   "variant_match": false,
+   "year": 2024
+  },
+  "drive:970415185": {
+   "active": true,
+   "condition": "used",
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-10-02",
+   "last_seen": "2026-10-02",
+   "location": "QLD",
+   "odometer_km": 72117,
+   "price": 43985,
+   "price_history": [
+    [
+     "2026-10-02",
+     43985
+    ]
+   ],
+   "price_text": "$43,985",
+   "query_key": "kia-ev6",
+   "source": "drive",
+   "source_id": "970415185",
+   "state": "QLD",
+   "title": "2023 Kia EV6",
+   "url": "https://www.drive.com.au/cars-for-sale/car/970415185/",
+   "variant": "CV GT-Line. Wagon 5dr Reduction Gear 1sp AC168kW [MY24]",
+   "variant_match": false,
+   "year": 2023
   }
  },
  "runs": [
-  {
-   "date": "2026-09-02",
-   "new": 5,
-   "sources_ok": [
-    "drive"
-   ],
-   "total_active": 12
-  },
   {
    "date": "2026-09-03",
    "new": 0,
@@ -1262,6 +1374,14 @@
     "drive"
    ],
    "total_active": 11
+  },
+  {
+   "date": "2026-10-02",
+   "new": 4,
+   "sources_ok": [
+    "drive"
+   ],
+   "total_active": 15
   }
  ],
  "version": 1
