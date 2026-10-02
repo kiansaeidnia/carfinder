@@ -1,27 +1,17 @@
-# Car watch — 2026-10-02
+# Car watch — 2026-10-03
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
-## New since last run: 4
+## New since last run: 1
 
-- **2024 Kia EV6** — $41,990, 59,306 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970413315/)
-- **2023 Kia EV6** — $43,985, 72,117 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970415185/)
-- **2025 Kia EV6** — $74,400, 28 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970347096/)
-- **2026 Kia EV6** — $82,600, 9 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970347040/)
+- **2026 Kia EV6** — $89,990, 9 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970347062/)
 
-## Price changes
+## All current matches: 12
 
-- 🔻 **2025 BYD SEALION 7** — $51,990 → $49,990 ([drive](https://www.drive.com.au/cars-for-sale/car/970389947/))
+### Kia EV6 — 2
 
-## All current matches: 15
-
-### Kia EV6 — 5
-
-- 2024 Kia EV6 — $41,990, 59,306 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970413315/)
-- 2023 Kia EV6 — $43,985, 72,117 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970415185/)
 - 2024 Kia EV6 — $57,990, 1,245 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/969928434/)
-- 2025 Kia EV6 — $74,400, 28 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970347096/)
-- 2026 Kia EV6 — $82,600, 9 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970347040/)
+- 2026 Kia EV6 — $89,990, 9 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970347062/)
 
 ### BYD Sealion 7 — 7
 
@@ -55,6 +45,6 @@ Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings wit
 | gumtree | kia-ev6 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | byd-sealion-7 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | subaru-solterra | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
-| drive | kia-ev6 | ✅ ok | 50 | 7 |
-| drive | byd-sealion-7 | ✅ ok | 56 | 7 |
+| drive | kia-ev6 | ✅ ok | 94 | 27 |
+| drive | byd-sealion-7 | ✅ ok | 62 | 7 |
 | drive | subaru-solterra | ✅ ok | 72 | 9 |
