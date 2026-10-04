@@ -8,7 +8,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-03",
+   "last_seen": "2026-10-05",
    "location": null,
    "odometer_km": 566,
    "price": 61990,
@@ -37,7 +37,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-03",
+   "last_seen": "2026-10-05",
    "location": null,
    "odometer_km": 517,
    "price": 67990,
@@ -66,7 +66,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-03",
+   "last_seen": "2026-10-05",
    "location": null,
    "odometer_km": 567,
    "price": 54990,
@@ -95,7 +95,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-03",
+   "last_seen": "2026-10-05",
    "location": null,
    "odometer_km": 542,
    "price": 63990,
@@ -244,7 +244,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-03",
+   "last_seen": "2026-10-05",
    "location": "QLD",
    "odometer_km": 1245,
    "price": 57990,
@@ -540,7 +540,7 @@
    "year": 2026
   },
   "drive:970347062": {
-   "active": true,
+   "active": false,
    "condition": "demo",
    "distance_km": null,
    "extra": {
@@ -564,6 +564,7 @@
    "state": "QLD",
    "title": "2026 Kia EV6",
    "url": "https://www.drive.com.au/cars-for-sale/car/970347062/",
+   "vanished_on": "2026-10-05",
    "variant": "CV PE GT-Line. Wagon 5dr Reduction Gear 1sp AWD AC239kW [MY26]",
    "variant_match": false,
    "year": 2026
@@ -820,7 +821,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-02",
-   "last_seen": "2026-10-03",
+   "last_seen": "2026-10-05",
    "location": "QLD",
    "odometer_km": 29187,
    "price": 39990,
@@ -869,7 +870,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-02",
-   "last_seen": "2026-10-03",
+   "last_seen": "2026-10-05",
    "location": "QLD",
    "odometer_km": 4381,
    "price": 49990,
@@ -906,7 +907,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-04",
-   "last_seen": "2026-10-03",
+   "last_seen": "2026-10-05",
    "location": "QLD",
    "odometer_km": 3278,
    "price": 49990,
@@ -995,7 +996,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-08",
-   "last_seen": "2026-10-03",
+   "last_seen": "2026-10-05",
    "location": "QLD",
    "odometer_km": 4670,
    "price": 49990,
@@ -1024,7 +1025,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-10",
-   "last_seen": "2026-10-03",
+   "last_seen": "2026-10-05",
    "location": "QLD",
    "odometer_km": 3072,
    "price": 49990,
@@ -1095,7 +1096,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-26",
-   "last_seen": "2026-10-03",
+   "last_seen": "2026-10-05",
    "location": "QLD",
    "odometer_km": 2600,
    "price": 51990,
@@ -1178,14 +1179,6 @@
   }
  },
  "runs": [
-  {
-   "date": "2026-09-05",
-   "new": 1,
-   "sources_ok": [
-    "drive"
-   ],
-   "total_active": 12
-  },
   {
    "date": "2026-09-06",
    "new": 0,
@@ -1413,6 +1406,14 @@
    "new": 0,
    "sources_ok": [],
    "total_active": 12
+  },
+  {
+   "date": "2026-10-05",
+   "new": 0,
+   "sources_ok": [
+    "drive"
+   ],
+   "total_active": 11
   }
  ],
  "version": 1
