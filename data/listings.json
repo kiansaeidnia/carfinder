@@ -8,7 +8,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "location": null,
    "odometer_km": 566,
    "price": 61990,
@@ -37,7 +37,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "location": null,
    "odometer_km": 517,
    "price": 67990,
@@ -66,7 +66,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "location": null,
    "odometer_km": 567,
    "price": 54990,
@@ -95,7 +95,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "location": null,
    "odometer_km": 542,
    "price": 63990,
@@ -244,7 +244,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "location": "QLD",
    "odometer_km": 1245,
    "price": 57990,
@@ -814,7 +814,7 @@
    "year": 2025
   },
   "drive:970376537": {
-   "active": true,
+   "active": false,
    "condition": "used",
    "distance_km": null,
    "extra": {
@@ -866,6 +866,7 @@
    "state": "QLD",
    "title": "2024 Subaru Solterra",
    "url": "https://www.drive.com.au/cars-for-sale/car/970376537/",
+   "vanished_on": "2026-10-14",
    "variant": "E1-1 AWD. Wagon 5dr Reduction Gear 1sp 160kW [MY24]",
    "variant_match": false,
    "year": 2024
@@ -878,10 +879,10 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-02",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "location": "QLD",
    "odometer_km": 4381,
-   "price": 48990,
+   "price": 47990,
    "price_history": [
     [
      "2026-09-02",
@@ -898,9 +899,13 @@
     [
      "2026-10-08",
      48990
+    ],
+    [
+     "2026-10-14",
+     47990
     ]
    ],
-   "price_text": "$48,990",
+   "price_text": "$47,990",
    "query_key": "byd-sealion-7",
    "source": "drive",
    "source_id": "970376617",
@@ -919,7 +924,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-04",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "location": "QLD",
    "odometer_km": 4395,
    "price": 49990,
@@ -1008,7 +1013,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-08",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "location": "QLD",
    "odometer_km": 4670,
    "price": 49990,
@@ -1109,7 +1114,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-26",
-   "last_seen": "2026-10-13",
+   "last_seen": "2026-10-14",
    "location": "QLD",
    "odometer_km": 2600,
    "price": 51990,
@@ -1192,14 +1197,6 @@
   }
  },
  "runs": [
-  {
-   "date": "2026-09-14",
-   "new": 0,
-   "sources_ok": [
-    "drive"
-   ],
-   "total_active": 14
-  },
   {
    "date": "2026-09-15",
    "new": 0,
@@ -1427,6 +1424,14 @@
     "drive"
    ],
    "total_active": 10
+  },
+  {
+   "date": "2026-10-14",
+   "new": 0,
+   "sources_ok": [
+    "drive"
+   ],
+   "total_active": 9
   }
  ],
  "version": 1
