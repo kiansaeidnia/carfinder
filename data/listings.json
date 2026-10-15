@@ -1,7 +1,7 @@
 {
  "listings": {
   "drive:107999": {
-   "active": true,
+   "active": false,
    "condition": null,
    "distance_km": null,
    "extra": {
@@ -25,12 +25,13 @@
    "state": null,
    "title": "2026 Subaru Solterra",
    "url": "https://www.drive.com.au/cars-for-sale/car/107999/",
+   "vanished_on": "2026-10-16",
    "variant": "E1-1 AWD. Wagon 5dr Reduction Gear 1sp 252kW [MY26]",
    "variant_match": false,
    "year": 2026
   },
   "drive:108000": {
-   "active": true,
+   "active": false,
    "condition": null,
    "distance_km": null,
    "extra": {
@@ -54,6 +55,7 @@
    "state": null,
    "title": "2026 Subaru Solterra",
    "url": "https://www.drive.com.au/cars-for-sale/car/108000/",
+   "vanished_on": "2026-10-16",
    "variant": "E1-1 AWD Touring. Wagon 5dr Reduction Gear 1sp 252kW [MY26]",
    "variant_match": false,
    "year": 2026
@@ -66,7 +68,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-16",
    "location": null,
    "odometer_km": 567,
    "price": 54990,
@@ -95,7 +97,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-16",
    "location": null,
    "odometer_km": 542,
    "price": 63990,
@@ -244,7 +246,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-16",
    "location": "QLD",
    "odometer_km": 1245,
    "price": 54990,
@@ -883,7 +885,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-02",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-16",
    "location": "QLD",
    "odometer_km": 4381,
    "price": 47990,
@@ -928,7 +930,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-04",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-16",
    "location": "QLD",
    "odometer_km": 4395,
    "price": 49490,
@@ -1014,7 +1016,7 @@
    "year": 2025
   },
   "drive:970385930": {
-   "active": true,
+   "active": false,
    "condition": "used",
    "distance_km": null,
    "extra": {
@@ -1042,6 +1044,7 @@
    "state": "QLD",
    "title": "2025 BYD SEALION 7",
    "url": "https://www.drive.com.au/cars-for-sale/car/970385930/",
+   "vanished_on": "2026-10-16",
    "variant": "Premium Wagon 5dr Auto 1sp AC230kW [MY25]",
    "variant_match": true,
    "year": 2025
@@ -1126,17 +1129,21 @@
     "unknown_distance": true
    },
    "first_seen": "2026-09-26",
-   "last_seen": "2026-10-15",
+   "last_seen": "2026-10-16",
    "location": "QLD",
    "odometer_km": 2600,
-   "price": 51990,
+   "price": 49490,
    "price_history": [
     [
      "2026-09-26",
      51990
+    ],
+    [
+     "2026-10-16",
+     49490
     ]
    ],
-   "price_text": "$51,990",
+   "price_text": "$49,490",
    "query_key": "byd-sealion-7",
    "source": "drive",
    "source_id": "970410964",
@@ -1206,17 +1213,38 @@
    "variant": "CV GT-Line. Wagon 5dr Reduction Gear 1sp AC168kW [MY24]",
    "variant_match": false,
    "year": 2023
+  },
+  "drive:970443186": {
+   "active": true,
+   "condition": "used",
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-10-16",
+   "last_seen": "2026-10-16",
+   "location": "QLD",
+   "odometer_km": 6499,
+   "price": 55990,
+   "price_history": [
+    [
+     "2026-10-16",
+     55990
+    ]
+   ],
+   "price_text": "$55,990",
+   "query_key": "byd-sealion-7",
+   "source": "drive",
+   "source_id": "970443186",
+   "state": "QLD",
+   "title": "2025 BYD SEALION 7",
+   "url": "https://www.drive.com.au/cars-for-sale/car/970443186/",
+   "variant": "Performance Wagon 5dr Auto 1sp AWD 390kW [MY25]",
+   "variant_match": false,
+   "year": 2025
   }
  },
  "runs": [
-  {
-   "date": "2026-09-16",
-   "new": 0,
-   "sources_ok": [
-    "drive"
-   ],
-   "total_active": 14
-  },
   {
    "date": "2026-09-17",
    "new": 1,
@@ -1444,6 +1472,14 @@
     "drive"
    ],
    "total_active": 9
+  },
+  {
+   "date": "2026-10-16",
+   "new": 1,
+   "sources_ok": [
+    "drive"
+   ],
+   "total_active": 7
   }
  ],
  "version": 1
