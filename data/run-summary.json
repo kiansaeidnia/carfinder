@@ -1,8 +1,8 @@
 {
- "date": "2026-10-23",
- "active": 6,
- "new": 0,
- "price_changes": 1,
+ "date": "2026-10-24",
+ "active": 7,
+ "new": 1,
+ "price_changes": 0,
  "vanished": 0,
  "sources": [
   {
@@ -129,8 +129,8 @@
    "source": "drive",
    "query": "kia-ev6",
    "ok": true,
-   "raw": 98,
-   "kept": 29,
+   "raw": 100,
+   "kept": 30,
    "engine": "playwright",
    "error": null,
    "url": "https://www.drive.com.au/cars-for-sale/search/all/all/kia/ev6/"
@@ -140,7 +140,7 @@
    "query": "byd-sealion-7",
    "ok": true,
    "raw": 60,
-   "kept": 4,
+   "kept": 5,
    "engine": "playwright",
    "error": null,
    "url": "https://www.drive.com.au/cars-for-sale/search/qld/all/byd/sealion-7/"
@@ -149,8 +149,8 @@
    "source": "drive",
    "query": "subaru-solterra",
    "ok": true,
-   "raw": 74,
-   "kept": 10,
+   "raw": 72,
+   "kept": 9,
    "engine": "playwright",
    "error": null,
    "url": "https://www.drive.com.au/cars-for-sale/search/qld/all/subaru/solterra/"
