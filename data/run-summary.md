@@ -1,10 +1,10 @@
-# Car watch — 2026-10-24
+# Car watch — 2026-10-25
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
-## New since last run: 1
+## New since last run: 0
 
-- **2025 BYD SEALION 7** — $55,990, 2,563 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970455408/)
+_none_
 
 ## All current matches: 7
 
