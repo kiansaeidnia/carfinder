@@ -1,8 +1,8 @@
 query_key,source,source_id,title,year,variant,price,price_text,odometer_km,condition,location,distance_km,variant_match,first_seen,last_seen,url
-byd-sealion-7,drive,117154,2026 BYD SEALION 7,2026,Premium Wagon 5dr Auto 1sp AC230kW [MY25],54990,"$54,990",567,,,,True,2026-07-12,2026-10-26,https://www.drive.com.au/cars-for-sale/car/g-117154/
-byd-sealion-7,drive,970443186,2025 BYD SEALION 7,2025,Performance Wagon 5dr Auto 1sp AWD 390kW [MY25],55990,"$55,990",6499,used,QLD,,False,2026-10-16,2026-10-26,https://www.drive.com.au/cars-for-sale/car/970443186/
-byd-sealion-7,drive,970448262,2025 BYD SEALION 7,2025,Performance Wagon 5dr Auto 1sp AWD 390kW [MY25],55990,"$55,990",3001,used,QLD,,False,2026-10-20,2026-10-26,https://www.drive.com.au/cars-for-sale/car/970448262/
-byd-sealion-7,drive,970455408,2025 BYD SEALION 7,2025,Performance Wagon 5dr Auto 1sp AWD 390kW [MY25],55990,"$55,990",2563,used,QLD,,False,2026-10-24,2026-10-26,https://www.drive.com.au/cars-for-sale/car/970455408/
-byd-sealion-7,drive,117155,2026 BYD SEALION 7,2026,Performance Wagon 5dr Auto 1sp AWD 390kW [MY25],63990,"$63,990",542,,,,False,2026-07-12,2026-10-26,https://www.drive.com.au/cars-for-sale/car/g-117155/
-kia-ev6,drive,970450844,2024 Kia EV6,2024,CV Air. Wagon 5dr Reduction Gear 1sp AC168kW [MY24],48990,"$48,990",5358,used,QLD,,False,2026-10-21,2026-10-26,https://www.drive.com.au/cars-for-sale/car/970450844/
-kia-ev6,drive,969928434,2024 Kia EV6,2024,CV Air. Wagon 5dr Reduction Gear 1sp AC168kW [MY24],52990,"$52,990",1245,demo,QLD,,False,2026-07-12,2026-10-26,https://www.drive.com.au/cars-for-sale/car/969928434/
+byd-sealion-7,drive,117154,2026 BYD SEALION 7,2026,Premium Wagon 5dr Auto 1sp AC230kW [MY25],54990,"$54,990",567,,,,True,2026-07-12,2026-10-27,https://www.drive.com.au/cars-for-sale/car/g-117154/
+byd-sealion-7,drive,970443186,2025 BYD SEALION 7,2025,Performance Wagon 5dr Auto 1sp AWD 390kW [MY25],55990,"$55,990",6499,used,QLD,,False,2026-10-16,2026-10-27,https://www.drive.com.au/cars-for-sale/car/970443186/
+byd-sealion-7,drive,970448262,2025 BYD SEALION 7,2025,Performance Wagon 5dr Auto 1sp AWD 390kW [MY25],55990,"$55,990",3001,used,QLD,,False,2026-10-20,2026-10-27,https://www.drive.com.au/cars-for-sale/car/970448262/
+byd-sealion-7,drive,970455408,2025 BYD SEALION 7,2025,Performance Wagon 5dr Auto 1sp AWD 390kW [MY25],55990,"$55,990",2563,used,QLD,,False,2026-10-24,2026-10-27,https://www.drive.com.au/cars-for-sale/car/970455408/
+byd-sealion-7,drive,117155,2026 BYD SEALION 7,2026,Performance Wagon 5dr Auto 1sp AWD 390kW [MY25],63990,"$63,990",542,,,,False,2026-07-12,2026-10-27,https://www.drive.com.au/cars-for-sale/car/g-117155/
+kia-ev6,drive,970450844,2024 Kia EV6,2024,CV Air. Wagon 5dr Reduction Gear 1sp AC168kW [MY24],48990,"$48,990",5358,used,QLD,,False,2026-10-21,2026-10-27,https://www.drive.com.au/cars-for-sale/car/970450844/
+kia-ev6,drive,969928434,2024 Kia EV6,2024,CV Air. Wagon 5dr Reduction Gear 1sp AC168kW [MY24],52990,"$52,990",1245,demo,QLD,,False,2026-07-12,2026-10-27,https://www.drive.com.au/cars-for-sale/car/969928434/
