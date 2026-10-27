@@ -68,7 +68,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "location": null,
    "odometer_km": 567,
    "price": 54990,
@@ -97,7 +97,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "location": null,
    "odometer_km": 542,
    "price": 63990,
@@ -246,7 +246,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "location": "QLD",
    "odometer_km": 1245,
    "price": 52990,
@@ -366,6 +366,35 @@
    "variant": "E1-1 AWD. Wagon 5dr Reduction Gear 1sp 252kW [MY26]",
    "variant_match": false,
    "year": 2025
+  },
+  "drive:970279527": {
+   "active": true,
+   "condition": null,
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "location": null,
+   "odometer_km": 8,
+   "price": 79372,
+   "price_history": [
+    [
+     "2026-10-28",
+     79372
+    ]
+   ],
+   "price_text": "$79,372",
+   "query_key": "kia-ev6",
+   "source": "drive",
+   "source_id": "970279527",
+   "state": null,
+   "title": "2026 Kia EV6",
+   "url": "https://www.drive.com.au/cars-for-sale/car/970279527/",
+   "variant": "CV PE Air. Wagon 5dr Reduction Gear 1sp AC168kW [MY26]",
+   "variant_match": false,
+   "year": 2026
   },
   "drive:970292539": {
    "active": false,
@@ -580,31 +609,34 @@
    "year": 2026
   },
   "drive:970347096": {
-   "active": false,
+   "active": true,
    "condition": null,
    "distance_km": null,
    "extra": {
     "unknown_distance": true
    },
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-02",
+   "last_seen": "2026-10-28",
    "location": "QLD",
    "odometer_km": 28,
-   "price": 74400,
+   "price": 69800,
    "price_history": [
     [
      "2026-10-02",
      74400
+    ],
+    [
+     "2026-10-28",
+     69800
     ]
    ],
-   "price_text": "$74,400",
+   "price_text": "$69,800",
    "query_key": "kia-ev6",
    "source": "drive",
    "source_id": "970347096",
    "state": "QLD",
    "title": "2025 Kia EV6",
    "url": "https://www.drive.com.au/cars-for-sale/car/970347096/",
-   "vanished_on": "2026-10-03",
    "variant": "CV PE Air. Wagon 5dr Reduction Gear 1sp AC168kW [MY26]",
    "variant_match": false,
    "year": 2025
@@ -1162,31 +1194,34 @@
    "year": 2025
   },
   "drive:970413315": {
-   "active": false,
+   "active": true,
    "condition": "used",
    "distance_km": null,
    "extra": {
     "unknown_distance": true
    },
    "first_seen": "2026-10-02",
-   "last_seen": "2026-10-02",
+   "last_seen": "2026-10-28",
    "location": "QLD",
    "odometer_km": 59306,
-   "price": 41990,
+   "price": 40990,
    "price_history": [
     [
      "2026-10-02",
      41990
+    ],
+    [
+     "2026-10-28",
+     40990
     ]
    ],
-   "price_text": "$41,990",
+   "price_text": "$40,990",
    "query_key": "kia-ev6",
    "source": "drive",
    "source_id": "970413315",
    "state": "QLD",
    "title": "2024 Kia EV6",
    "url": "https://www.drive.com.au/cars-for-sale/car/970413315/",
-   "vanished_on": "2026-10-03",
    "variant": "CV Air. Wagon 5dr Reduction Gear 1sp AC168kW [MY24]",
    "variant_match": false,
    "year": 2024
@@ -1229,7 +1264,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "location": "QLD",
    "odometer_km": 6499,
    "price": 55990,
@@ -1250,6 +1285,35 @@
    "variant_match": false,
    "year": 2025
   },
+  "drive:970447892": {
+   "active": true,
+   "condition": "demo",
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "location": "QLD",
+   "odometer_km": 2190,
+   "price": 64929,
+   "price_history": [
+    [
+     "2026-10-28",
+     64929
+    ]
+   ],
+   "price_text": "$64,929",
+   "query_key": "subaru-solterra",
+   "source": "drive",
+   "source_id": "970447892",
+   "state": "QLD",
+   "title": "2025 Subaru Solterra",
+   "url": "https://www.drive.com.au/cars-for-sale/car/970447892/",
+   "variant": "E1-1 AWD. Wagon 5dr Reduction Gear 1sp 252kW [MY26]",
+   "variant_match": false,
+   "year": 2025
+  },
   "drive:970448262": {
    "active": true,
    "condition": "used",
@@ -1258,7 +1322,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "location": "QLD",
    "odometer_km": 3001,
    "price": 55990,
@@ -1287,7 +1351,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "location": "QLD",
    "odometer_km": 5358,
    "price": 48990,
@@ -1316,7 +1380,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-24",
-   "last_seen": "2026-10-27",
+   "last_seen": "2026-10-28",
    "location": "QLD",
    "odometer_km": 2563,
    "price": 55990,
@@ -1336,17 +1400,38 @@
    "variant": "Performance Wagon 5dr Auto 1sp AWD 390kW [MY25]",
    "variant_match": false,
    "year": 2025
+  },
+  "drive:970460582": {
+   "active": true,
+   "condition": "used",
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-10-28",
+   "last_seen": "2026-10-28",
+   "location": "QLD",
+   "odometer_km": 3128,
+   "price": 55990,
+   "price_history": [
+    [
+     "2026-10-28",
+     55990
+    ]
+   ],
+   "price_text": "$55,990",
+   "query_key": "byd-sealion-7",
+   "source": "drive",
+   "source_id": "970460582",
+   "state": "QLD",
+   "title": "2025 BYD SEALION 7",
+   "url": "https://www.drive.com.au/cars-for-sale/car/970460582/",
+   "variant": "Performance Wagon 5dr Auto 1sp AWD 390kW [MY25]",
+   "variant_match": false,
+   "year": 2025
   }
  },
  "runs": [
-  {
-   "date": "2026-09-28",
-   "new": 0,
-   "sources_ok": [
-    "drive"
-   ],
-   "total_active": 10
-  },
   {
    "date": "2026-09-29",
    "new": 0,
@@ -1576,6 +1661,14 @@
     "drive"
    ],
    "total_active": 7
+  },
+  {
+   "date": "2026-10-28",
+   "new": 3,
+   "sources_ok": [
+    "drive"
+   ],
+   "total_active": 12
   }
  ],
  "version": 1
