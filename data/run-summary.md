@@ -1,29 +1,34 @@
-# Car watch — 2026-10-29
+# Car watch — 2026-10-30
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
-## New since last run: 0
+## New since last run: 3
 
-_none_
+- **2025 BYD SEALION 7** ⭐ — $49,990, 3,128 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970464225/)
+- **2025 BYD SEALION 7** ⭐ — $49,990, 3,287 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970464193/)
+- **2025 BYD SEALION 7** — $56,490, 3,187 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970464228/)
 
-## All current matches: 6
+## All current matches: 11
 
-### Kia EV6 — 0
+### Kia EV6 — 2
 
-_none found_
+- 2024 Kia EV6 — $48,990, 5,358 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970450844/)
+- 2024 Kia EV6 — $52,990, 1,245 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/969928434/)
 
-### BYD Sealion 7 — 6
+### BYD Sealion 7 — 8
 
+- 2025 BYD SEALION 7 ⭐ — $49,990, 3,128 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970464225/)
+- 2025 BYD SEALION 7 ⭐ — $49,990, 3,287 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970464193/)
 - 2026 BYD SEALION 7 ⭐ — $54,990, 567 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-117154/)
 - 2025 BYD SEALION 7 — $55,990, 6,499 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970443186/)
 - 2025 BYD SEALION 7 — $55,990, 3,001 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970448262/)
 - 2025 BYD SEALION 7 — $55,990, 2,563 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970455408/)
-- 2025 BYD SEALION 7 — $55,990, 3,128 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970460582/)
+- 2025 BYD SEALION 7 — $56,490, 3,187 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970464228/)
 - 2026 BYD SEALION 7 — $63,990, 542 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-117155/)
 
-### Subaru Solterra — 0
+### Subaru Solterra — 1
 
-_none found_
+- 2025 Subaru Solterra — $64,929, 2,190 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970447892/)
 
 ## Source status
 
@@ -41,6 +46,6 @@ _none found_
 | gumtree | kia-ev6 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | byd-sealion-7 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | subaru-solterra | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
-| drive | kia-ev6 | ✅ ok | 0 | 0 |
-| drive | byd-sealion-7 | ✅ ok | 48 | 6 |
-| drive | subaru-solterra | ✅ ok | 64 | 9 |
+| drive | kia-ev6 | ✅ ok | 100 | 30 |
+| drive | byd-sealion-7 | ✅ ok | 62 | 8 |
+| drive | subaru-solterra | ✅ ok | 72 | 9 |
