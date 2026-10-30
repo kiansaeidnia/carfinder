@@ -68,7 +68,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "location": null,
    "odometer_km": 567,
    "price": 54990,
@@ -97,7 +97,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "location": null,
    "odometer_km": 542,
    "price": 63990,
@@ -239,7 +239,7 @@
    "year": 2026
   },
   "drive:969928434": {
-   "active": true,
+   "active": false,
    "condition": "demo",
    "distance_km": null,
    "extra": {
@@ -299,6 +299,7 @@
    "state": "QLD",
    "title": "2024 Kia EV6",
    "url": "https://www.drive.com.au/cars-for-sale/car/969928434/",
+   "vanished_on": "2026-10-31",
    "variant": "CV Air. Wagon 5dr Reduction Gear 1sp AC168kW [MY24]",
    "variant_match": false,
    "year": 2024
@@ -1267,7 +1268,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-16",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "location": "QLD",
    "odometer_km": 6499,
    "price": 55990,
@@ -1289,7 +1290,7 @@
    "year": 2025
   },
   "drive:970447892": {
-   "active": true,
+   "active": false,
    "condition": "demo",
    "distance_km": null,
    "extra": {
@@ -1313,6 +1314,7 @@
    "state": "QLD",
    "title": "2025 Subaru Solterra",
    "url": "https://www.drive.com.au/cars-for-sale/car/970447892/",
+   "vanished_on": "2026-10-31",
    "variant": "E1-1 AWD. Wagon 5dr Reduction Gear 1sp 252kW [MY26]",
    "variant_match": false,
    "year": 2025
@@ -1325,7 +1327,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "location": "QLD",
    "odometer_km": 3001,
    "price": 55990,
@@ -1354,7 +1356,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "location": "QLD",
    "odometer_km": 5358,
    "price": 48990,
@@ -1383,7 +1385,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-24",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "location": "QLD",
    "odometer_km": 2563,
    "price": 55990,
@@ -1442,7 +1444,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-30",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "location": "QLD",
    "odometer_km": 3287,
    "price": 49990,
@@ -1471,7 +1473,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-30",
-   "last_seen": "2026-10-30",
+   "last_seen": "2026-10-31",
    "location": "QLD",
    "odometer_km": 3128,
    "price": 49990,
@@ -1493,7 +1495,7 @@
    "year": 2025
   },
   "drive:970464228": {
-   "active": true,
+   "active": false,
    "condition": "used",
    "distance_km": null,
    "extra": {
@@ -1517,20 +1519,71 @@
    "state": "QLD",
    "title": "2025 BYD SEALION 7",
    "url": "https://www.drive.com.au/cars-for-sale/car/970464228/",
+   "vanished_on": "2026-10-31",
    "variant": "Performance Wagon 5dr Auto 1sp AWD 390kW [MY25]",
+   "variant_match": false,
+   "year": 2025
+  },
+  "drive:970466827": {
+   "active": true,
+   "condition": "used",
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31",
+   "location": "Hendra, QLD",
+   "odometer_km": 3445,
+   "price": 49990,
+   "price_history": [
+    [
+     "2026-10-31",
+     49990
+    ]
+   ],
+   "price_text": "$49,990 Drive Away",
+   "query_key": "byd-sealion-7",
+   "source": "drive",
+   "source_id": "970466827",
+   "state": "QLD",
+   "title": "2025 BYD SEALION 7",
+   "url": "https://www.drive.com.au/cars-for-sale/car/970466827/",
+   "variant": null,
+   "variant_match": true,
+   "year": 2025
+  },
+  "drive:970466828": {
+   "active": true,
+   "condition": "used",
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-10-31",
+   "last_seen": "2026-10-31",
+   "location": "Hendra, QLD",
+   "odometer_km": 3136,
+   "price": 56490,
+   "price_history": [
+    [
+     "2026-10-31",
+     56490
+    ]
+   ],
+   "price_text": "$56,490 Drive Away",
+   "query_key": "byd-sealion-7",
+   "source": "drive",
+   "source_id": "970466828",
+   "state": "QLD",
+   "title": "2025 BYD SEALION 7",
+   "url": "https://www.drive.com.au/cars-for-sale/car/970466828/",
+   "variant": null,
    "variant_match": false,
    "year": 2025
   }
  },
  "runs": [
-  {
-   "date": "2026-10-01",
-   "new": 0,
-   "sources_ok": [
-    "drive"
-   ],
-   "total_active": 11
-  },
   {
    "date": "2026-10-02",
    "new": 4,
@@ -1760,6 +1813,14 @@
     "drive"
    ],
    "total_active": 11
+  },
+  {
+   "date": "2026-10-31",
+   "new": 2,
+   "sources_ok": [
+    "drive"
+   ],
+   "total_active": 10
   }
  ],
  "version": 1
