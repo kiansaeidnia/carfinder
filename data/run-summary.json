@@ -1,5 +1,5 @@
 {
- "date": "2026-11-03",
+ "date": "2026-11-04",
  "active": 8,
  "new": 0,
  "price_changes": 0,
@@ -139,7 +139,7 @@
    "source": "drive",
    "query": "byd-sealion-7",
    "ok": true,
-   "raw": 62,
+   "raw": 60,
    "kept": 7,
    "engine": "playwright",
    "error": null,
