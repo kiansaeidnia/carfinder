@@ -68,7 +68,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "location": null,
    "odometer_km": 567,
    "price": 54990,
@@ -97,7 +97,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "location": null,
    "odometer_km": 542,
    "price": 63990,
@@ -963,16 +963,16 @@
    "year": 2025
   },
   "drive:970379857": {
-   "active": false,
+   "active": true,
    "condition": "used",
    "distance_km": null,
    "extra": {
     "unknown_distance": true
    },
    "first_seen": "2026-09-04",
-   "last_seen": "2026-10-19",
+   "last_seen": "2026-11-05",
    "location": "QLD",
-   "odometer_km": 4395,
+   "odometer_km": 4396,
    "price": 49490,
    "price_history": [
     [
@@ -991,7 +991,6 @@
    "state": "QLD",
    "title": "2025 BYD SEALION 7",
    "url": "https://www.drive.com.au/cars-for-sale/car/970379857/",
-   "vanished_on": "2026-10-20",
    "variant": "Premium Wagon 5dr Auto 1sp AC230kW [MY25]",
    "variant_match": true,
    "year": 2025
@@ -1268,7 +1267,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "location": "QLD",
    "odometer_km": 6499,
    "price": 55990,
@@ -1327,7 +1326,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-20",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "location": "QLD",
    "odometer_km": 3001,
    "price": 55990,
@@ -1356,7 +1355,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "location": "QLD",
    "odometer_km": 5358,
    "price": 48990,
@@ -1385,7 +1384,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-24",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "location": "QLD",
    "odometer_km": 2563,
    "price": 55990,
@@ -1444,7 +1443,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "location": "QLD",
    "odometer_km": 3287,
    "price": 49990,
@@ -1563,7 +1562,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "location": "QLD",
    "odometer_km": 3136,
    "price": 56490,
@@ -1583,17 +1582,38 @@
    "variant": "Performance Wagon 5dr Auto 1sp AWD 390kW [MY25]",
    "variant_match": false,
    "year": 2025
+  },
+  "drive:970473594": {
+   "active": true,
+   "condition": "used",
+   "distance_km": null,
+   "extra": {
+    "unknown_distance": true
+   },
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "location": "QLD",
+   "odometer_km": 1019,
+   "price": 56490,
+   "price_history": [
+    [
+     "2026-11-05",
+     56490
+    ]
+   ],
+   "price_text": "$56,490",
+   "query_key": "byd-sealion-7",
+   "source": "drive",
+   "source_id": "970473594",
+   "state": "QLD",
+   "title": "2026 BYD SEALION 7",
+   "url": "https://www.drive.com.au/cars-for-sale/car/970473594/",
+   "variant": "Performance Wagon 5dr Auto 1sp AWD 390kW [MY25]",
+   "variant_match": false,
+   "year": 2026
   }
  },
  "runs": [
-  {
-   "date": "2026-10-06",
-   "new": 0,
-   "sources_ok": [
-    "drive"
-   ],
-   "total_active": 10
-  },
   {
    "date": "2026-10-07",
    "new": 0,
@@ -1825,6 +1845,14 @@
     "drive"
    ],
    "total_active": 8
+  },
+  {
+   "date": "2026-11-05",
+   "new": 1,
+   "sources_ok": [
+    "drive"
+   ],
+   "total_active": 10
   }
  ],
  "version": 1
