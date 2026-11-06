@@ -1,10 +1,14 @@
-# Car watch — 2026-11-05
+# Car watch — 2026-11-06
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
-## New since last run: 1
+## New since last run: 0
 
-- **2026 BYD SEALION 7** — $56,490, 1,019 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970473594/)
+_none_
+
+## Price changes
+
+- 🔻 **2025 BYD SEALION 7** — $55,990 → $54,990 ([drive](https://www.drive.com.au/cars-for-sale/car/970443186/))
 
 ## All current matches: 10
 
@@ -17,7 +21,7 @@ Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings wit
 - 2025 BYD SEALION 7 ⭐ — $49,490, 4,396 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970379857/)
 - 2025 BYD SEALION 7 ⭐ — $49,990, 3,287 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970464193/)
 - 2026 BYD SEALION 7 ⭐ — $54,990, 567 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-117154/)
-- 2025 BYD SEALION 7 — $55,990, 6,499 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970443186/)
+- 2025 BYD SEALION 7 — $54,990, 6,499 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970443186/)
 - 2025 BYD SEALION 7 — $55,990, 3,001 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970448262/)
 - 2025 BYD SEALION 7 — $55,990, 2,563 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970455408/)
 - 2025 BYD SEALION 7 — $56,490, 3,136 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970466828/)
@@ -44,6 +48,6 @@ _none found_
 | gumtree | kia-ev6 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | byd-sealion-7 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | subaru-solterra | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
-| drive | kia-ev6 | ✅ ok | 100 | 30 |
-| drive | byd-sealion-7 | ✅ ok | 66 | 9 |
+| drive | kia-ev6 | ✅ ok | 52 | 8 |
+| drive | byd-sealion-7 | ✅ ok | 70 | 9 |
 | drive | subaru-solterra | ✅ ok | 72 | 9 |
