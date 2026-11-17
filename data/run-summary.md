@@ -1,29 +1,34 @@
-# Car watch — 2026-11-16
+# Car watch — 2026-11-17
 
 Search: within ~250 km of Cairns QLD 4870 (straight-line), plus QLD listings with unknown distance.
 
-## New since last run: 0
+## New since last run: 1
 
-_none_
+- **2026 BYD SEALION 7** ⭐ — $49,990, 3,121 km, QLD (? away) — [drive](https://www.drive.com.au/cars-for-sale/car/970492094/)
 
-## All current matches: 14
+## Price changes
+
+- 🔺 **2023 Kia EV6** — $58,989 → $59,001 ([drive](https://www.drive.com.au/cars-for-sale/car/970477277/))
+- 🔻 **2025 BYD SEALION 7** — $49,990 → $49,490 ([drive](https://www.drive.com.au/cars-for-sale/car/970485713/))
+- 🔻 **2025 BYD SEALION 7** — $54,990 → $53,990 ([drive](https://www.drive.com.au/cars-for-sale/car/970485743/))
+
+## All current matches: 13
 
 ### Kia EV6 — 2
 
 - 2024 Kia EV6 — $47,990, 5,358 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970450844/)
-- 2023 Kia EV6 — $58,989, 22,153 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970477277/)
+- 2023 Kia EV6 — $59,001, 22,153 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970477277/)
 
-### BYD Sealion 7 — 12
+### BYD Sealion 7 — 11
 
+- 2025 BYD SEALION 7 ⭐ — $49,490, 3,128 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970485713/)
 - 2025 BYD SEALION 7 ⭐ — $49,990, 3,287 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970464193/)
-- 2025 BYD SEALION 7 ⭐ — $49,990, 3,128 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970485713/)
+- 2026 BYD SEALION 7 ⭐ — $49,990, 3,121 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970492094/)
+- 2025 BYD SEALION 7 — $53,990, 3,160 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970485743/)
 - 2026 BYD SEALION 7 ⭐ — $54,990, 567 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-117154/)
 - 2025 BYD SEALION 7 — $54,990, 6,499 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970443186/)
-- 2025 BYD SEALION 7 — $54,990, 3,160 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970485743/)
-- 2025 BYD SEALION 7 — $55,990, 3,001 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970448262/)
 - 2025 BYD SEALION 7 — $55,990, 2,563 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970455408/)
 - 2025 BYD SEALION 7 — $55,990, 3,136 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970466828/)
-- 2025 BYD SEALION 7 — $55,990, 1,208 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970485702/)
 - 2025 BYD SEALION 7 — $55,990, 3,066 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970485770/)
 - 2025 BYD SEALION 7 — $57,990, 3,187 km, QLD (?) — [drive](https://www.drive.com.au/cars-for-sale/car/970485755/)
 - 2026 BYD SEALION 7 — $63,990, 542 km, ? (?) — [drive](https://www.drive.com.au/cars-for-sale/car/g-117155/)
@@ -48,6 +53,6 @@ _none found_
 | gumtree | kia-ev6 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | byd-sealion-7 | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
 | gumtree | subaru-solterra | ❌ all candidate URLs blocked or failed (last status 403) | 0 | 0 |
-| drive | kia-ev6 | ✅ ok | 100 | 30 |
-| drive | byd-sealion-7 | ✅ ok | 74 | 12 |
+| drive | kia-ev6 | ✅ ok | 103 | 32 |
+| drive | byd-sealion-7 | ✅ ok | 76 | 11 |
 | drive | subaru-solterra | ✅ ok | 74 | 10 |
