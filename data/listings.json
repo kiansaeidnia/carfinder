@@ -68,7 +68,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "location": null,
    "odometer_km": 567,
    "price": 54990,
@@ -97,7 +97,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "location": null,
    "odometer_km": 542,
    "price": 63990,
@@ -239,7 +239,7 @@
    "year": 2026
   },
   "drive:969928434": {
-   "active": true,
+   "active": false,
    "condition": "demo",
    "distance_km": null,
    "extra": {
@@ -303,6 +303,7 @@
    "state": "QLD",
    "title": "2024 Kia EV6",
    "url": "https://www.drive.com.au/cars-for-sale/car/969928434/",
+   "vanished_on": "2026-11-19",
    "variant": "CV Air. Wagon 5dr Reduction Gear 1sp AC168kW [MY24]",
    "variant_match": false,
    "year": 2024
@@ -1279,7 +1280,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "location": "QLD",
    "odometer_km": 6499,
    "price": 55990,
@@ -1376,7 +1377,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-20",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "location": "QLD",
    "odometer_km": 3001,
    "price": 55990,
@@ -1405,7 +1406,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-21",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "location": "QLD",
    "odometer_km": 5358,
    "price": 47990,
@@ -1438,7 +1439,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-24",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "location": "QLD",
    "odometer_km": 2563,
    "price": 55990,
@@ -1497,7 +1498,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "location": "QLD",
    "odometer_km": 3287,
    "price": 49990,
@@ -1616,7 +1617,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "location": "QLD",
    "odometer_km": 3136,
    "price": 55990,
@@ -1679,7 +1680,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "location": "QLD",
    "odometer_km": 22153,
    "price": 59001,
@@ -1742,7 +1743,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "location": "QLD",
    "odometer_km": 3128,
    "price": 49490,
@@ -1775,7 +1776,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "location": "QLD",
    "odometer_km": 3160,
    "price": 53990,
@@ -1808,7 +1809,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "location": "QLD",
    "odometer_km": 3187,
    "price": 56990,
@@ -1841,7 +1842,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "location": "QLD",
    "odometer_km": 3066,
    "price": 55990,
@@ -1900,7 +1901,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "location": "QLD",
    "odometer_km": 7116,
    "price": 49990,
@@ -1923,14 +1924,6 @@
   }
  },
  "runs": [
-  {
-   "date": "2026-10-20",
-   "new": 1,
-   "sources_ok": [
-    "drive"
-   ],
-   "total_active": 6
-  },
   {
    "date": "2026-10-21",
    "new": 1,
@@ -2162,6 +2155,14 @@
     "drive"
    ],
    "total_active": 15
+  },
+  {
+   "date": "2026-11-19",
+   "new": 0,
+   "sources_ok": [
+    "drive"
+   ],
+   "total_active": 14
   }
  ],
  "version": 1
