@@ -68,7 +68,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "location": null,
    "odometer_km": 567,
    "price": 54990,
@@ -97,7 +97,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-07-12",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "location": null,
    "odometer_km": 542,
    "price": 63990,
@@ -1280,7 +1280,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-16",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "location": "QLD",
    "odometer_km": 6499,
    "price": 55990,
@@ -1377,7 +1377,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-20",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "location": "QLD",
    "odometer_km": 3001,
    "price": 55990,
@@ -1399,7 +1399,7 @@
    "year": 2025
   },
   "drive:970450844": {
-   "active": true,
+   "active": false,
    "condition": "used",
    "distance_km": null,
    "extra": {
@@ -1427,12 +1427,13 @@
    "state": "QLD",
    "title": "2024 Kia EV6",
    "url": "https://www.drive.com.au/cars-for-sale/car/970450844/",
+   "vanished_on": "2026-11-20",
    "variant": "CV Air. Wagon 5dr Reduction Gear 1sp AC168kW [MY24]",
    "variant_match": false,
    "year": 2024
   },
   "drive:970455408": {
-   "active": true,
+   "active": false,
    "condition": "used",
    "distance_km": null,
    "extra": {
@@ -1456,6 +1457,7 @@
    "state": "QLD",
    "title": "2025 BYD SEALION 7",
    "url": "https://www.drive.com.au/cars-for-sale/car/970455408/",
+   "vanished_on": "2026-11-20",
    "variant": "Performance Wagon 5dr Auto 1sp AWD 390kW [MY25]",
    "variant_match": false,
    "year": 2025
@@ -1498,7 +1500,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-30",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "location": "QLD",
    "odometer_km": 3287,
    "price": 49990,
@@ -1617,7 +1619,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-10-31",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "location": "QLD",
    "odometer_km": 3136,
    "price": 55990,
@@ -1673,7 +1675,7 @@
    "year": 2026
   },
   "drive:970477277": {
-   "active": true,
+   "active": false,
    "condition": "used",
    "distance_km": null,
    "extra": {
@@ -1701,6 +1703,7 @@
    "state": "QLD",
    "title": "2023 Kia EV6",
    "url": "https://www.drive.com.au/cars-for-sale/car/970477277/",
+   "vanished_on": "2026-11-20",
    "variant": "CV GT. Wagon 5dr Reduction Gear 1sp AWD AC430kW [MY23]",
    "variant_match": false,
    "year": 2023
@@ -1743,7 +1746,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "location": "QLD",
    "odometer_km": 3128,
    "price": 49490,
@@ -1776,7 +1779,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "location": "QLD",
    "odometer_km": 3160,
    "price": 53990,
@@ -1809,7 +1812,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "location": "QLD",
    "odometer_km": 3187,
    "price": 56990,
@@ -1842,7 +1845,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "location": "QLD",
    "odometer_km": 3066,
    "price": 55990,
@@ -1901,7 +1904,7 @@
     "unknown_distance": true
    },
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "location": "QLD",
    "odometer_km": 7116,
    "price": 49990,
@@ -1924,14 +1927,6 @@
   }
  },
  "runs": [
-  {
-   "date": "2026-10-21",
-   "new": 1,
-   "sources_ok": [
-    "drive"
-   ],
-   "total_active": 6
-  },
   {
    "date": "2026-10-22",
    "new": 0,
@@ -2163,6 +2158,14 @@
     "drive"
    ],
    "total_active": 14
+  },
+  {
+   "date": "2026-11-20",
+   "new": 0,
+   "sources_ok": [
+    "drive"
+   ],
+   "total_active": 11
   }
  ],
  "version": 1
